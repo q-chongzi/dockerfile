@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+
+	<title>让信息自由流通</title>
+	<meta name="author" content="青云之上" />
+	<meta name="keywords" content="数据 融合 交换 同步 迁移 清洗 开发 框架 软件 工厂"/>
+	<meta name="description" content="数据标准化是唯一的解决方法，除此之外，都会让解决方法变得不经济"/>
+
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+	
+	<div class="container" style="padding-top:20px;">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title"></h3>
+			</div>
+			<div class="panel-body" id="content" style="height:600px">
+				<div id="infoinge" style="border: 1px solid; width: 300px; height: 500px; float: left;overflow: scroll;">正在接收数据...</div>
+				<div id="lock" style="border: 1px solid; width: 300px; height: 500px; float: right;overflow: scroll;">正在接收数据...</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			isSupportWebSocket("infoinge");
+
+			isSupportWebSocket("lock");
+
+			/**************************测试websocket*****************************/
+			function isSupportWebSocket(type) {
+				console.log(type)
+				var socket = null;
+				if ('WebSocket' in window) {
+					// 连接的时候需要传一个指令集来标明类型
+					websocket = new WebSocket("ws://" + location.host + "/websocket/" + type);
+				} else {
+					alert('当前浏览器 Not support websocket')
+				}
+
+				//连接发生错误的回调方法
+				websocket.onerror = function() {
+					alert("发生错误");
+				};
+
+				//连接成功建立的回调方法
+				websocket.onopen = function() {
+					// 成功连接后，加载页面
+					console.log("连接成功");
+
+					$("#resource_setting_main").load("websocket.view.html");
+
+				}
+
+				//接收到消息的回调方法
+				websocket.onmessage = function(event) {
+					var data;
+					data = JSON.parse(event.data);
+					$("#" + type).append("<p>" + data.msg + "----" + data.type + "</p>");
+				}
+
+				//连接关闭的回调方法
+				websocket.onclose = function() {
+					console.log("连接关闭了");
+				}
+
+				//监听窗口关闭事件，当窗口关闭时，主动去关闭websocket连接，防止连接还没断开就关闭窗口，server端会抛异常。
+				window.onbeforeunload = function() {
+					console.log(type);
+					alert(type);
+					closeWebSocket();
+				}
+
+				//关闭WebSocket连接
+				function closeWebSocket() {
+					websocket.close();
+				}
+
+				//发送消息
+				function send() {
+					var msg = {
+						'content' : "消息的内容",
+						'name' : "消息的标识"
+					}
+					//		JSON.parse()和JSON.stringify()
+					websocket.send(JSON.stringify(msg));
+				}
+
+			}
+		});
+		
+	</script>
+</body>
+</html>

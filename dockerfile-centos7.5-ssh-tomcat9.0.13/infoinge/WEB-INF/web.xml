@@ -1,0 +1,68 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>cludove's spruce</display-name>
+	<servlet>
+		<servlet-name>MainServlet</servlet-name>
+		<servlet-class>com.cludove.hinge.buddle.Welkin</servlet-class>
+		<init-param>
+			<param-name>application.name</param-name>
+			<param-value>cludove</param-value>
+		</init-param>
+		<init-param>
+			<param-name>application.identifier</param-name>
+			<param-value>spruce</param-value>
+		</init-param>
+		<load-on-startup>5</load-on-startup>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ConsoleServlet</servlet-name>
+		<servlet-class>com.cludove.hinge.neck.Console</servlet-class>
+		<load-on-startup>5</load-on-startup>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>InitServlet</servlet-name>
+		<servlet-class>com.cludove.hinge.neck.InitServlet</servlet-class>
+		<load-on-startup>5</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MainServlet</servlet-name>
+		<url-pattern>/s</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ConsoleServlet</servlet-name>
+		<url-pattern>/console</url-pattern>
+	</servlet-mapping>
+	
+		<servlet-mapping>
+		<servlet-name>InitServlet</servlet-name>
+		<url-pattern>/i</url-pattern>
+	</servlet-mapping>
+	
+
+	<session-config>
+		<session-timeout>1440</session-timeout>
+	</session-config>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+	</welcome-file-list>
+	<!--
+	<context-param>
+    <param-name>webAppRootKey</param-name>
+       <param-value>
+           ebop-server.root
+       </param-value>
+	</context-param>
+    <listener>
+        <listener-class>org.springframework.web.util.WebAppRootListener</listener-class>
+    </listener>
+    -->
+</web-app>

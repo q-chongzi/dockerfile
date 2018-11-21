@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="icon" href="img/xunshu.png" type="image/x-icon"/>
+	<title>数据统计</title>
+	<meta name="author" content="青云之上" />
+	<meta name="keywords" content="数据 融合 交换 同步 迁移 清洗 开发 框架 软件 工厂"/>
+	<meta name="description" content="数据标准化是唯一的解决方法，除此之外，都会让解决方法变得不经济"/>
+
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	<div class="configure clearfix">
+		<div class="configure-fl fl">
+			<div class="configure-fl-about">
+				<div class="configure-fl-about-tit">
+						关于AWS
+				</div>
+				<ul class="configure-nav1">
+					<li class="nav1-lis">
+						<a href="">AWS云计算</a>
+						<ul class="configure-nav2  hidden">
+							<li class="nav1-lis2"><a href="">AWS免费套餐</a></li>
+							<li class="nav1-lis2"><a href="">AWS云产品</a></li>
+							<li class="nav1-lis2"><a href="">云计算类型</a></li>
+						</ul>
+					</li>
+					<li class="nav1-lis">
+						<a href="">AWS云解决方案</a>
+						<ul class="configure-nav2  hidden">
+							<li class="nav1-lis2"><a href="">AWS免费套餐</a></li>
+							<li class="nav1-lis2"><a href="">AWS云产品</a></li>
+							<li class="nav1-lis2"><a href="">云计算类型</a></li>
+						</ul>
+					</li>
+					<li class="nav1-lis"><a href="">AWS云产品</a></li>
+					<li class="nav1-lis"><a href="">AWS免费套餐</a></li>
+					<li class="nav1-lis"><a href="">云计算类型</a></li>
+				</ul>
+			</div>
+			<div class="configure-fl-link">
+				<div class="configure-fl-link-tit">
+					相关链接
+				</div>
+				<ul>
+					<li><a href="">开始使用AWS</a></li>
+					<li><a href="">AWS Marketplace 软件</a></li>
+					<li><a href="">网络研讨会计划</a></li>
+				</ul>
+				<a href="" class="add"> + 创建免费账户</a>
+			</div>
+		</div>
+		<div class="configure-fr fl">
+			<div class="design-tit">
+				<a href="">
+					<img src="img/help1.png"/>
+				</a>
+			</div>
+			<div class="top clearfix">
+				<div class="top1 fl">
+					<div style="width:400px;margin:0 auto;">
+					   <table id='myTable5'>
+							<caption>应用对比</caption>
+							<thead>
+								<tr>
+									<th></th>
+									<th>讯杻1</th>
+									<th>讯杻2</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th>840</th>
+									<td>540</td>
+									<td>300</td>
+								</tr>
+							</tbody>
+						</table>  
+					</div>	
+				</div>
+				<div class="top1 fr">
+					<div style="width:400px;margin:0 auto;">
+					<table id='myTable1'>
+						<caption>功能对比</caption>
+						<thead>
+							<tr>
+								<th></th>
+								<th>讯杻1</th>
+								<th>讯杻2</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>1200</th>
+								<td>450</td>
+								<td>650</td>
+								</tr>
+						</tbody>
+					</table>  
+					</div>
+				</div>
+			</div>
+			<div id="container1" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
+		</div>
+	</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jsapi.js"></script>
+<script type="text/javascript" src="js/corechart.js"></script>		
+<script type="text/javascript" src="js/jquery.gvChart-1.0.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.ba-resize.min.js"></script>
+<script type="text/javascript" src="js/highcharts.js"></script>  
+<script type="text/javascript">  
+        var chart;  
+        $(document).ready(function () {  
+            //曲线图初始化  
+            chart = new Highcharts.Chart({  
+                chart: {  
+                    renderTo: 'container1',  
+                    type: 'line',  
+                    marginRight: 220,  
+                    marginBottom: 25  
+                },  
+                title: {  
+                    text: '数据曲线图表',  
+                    x: -20 //center  
+                },  
+                subtitle: {  
+                    text: 'jqddsjfx',  
+                    x: -20  
+                },  
+                xAxis: {  
+                    categories: ['02年', '02年', '02年', '04年', '05年', '06年',  
+                '07年', '08年', '09年', '20年', '22年', '22年']  
+                },  
+                yAxis: {  
+                    title: {  
+                        text: '数据'  
+                    },  
+                    plotLines: [{  
+                        value: 0,  
+                        width: 2,  
+                        color: '#808080'  
+                    }]  
+                },  
+                tooltip: {  
+                    formatter: function () {  
+                        return '<b>' + this.series.name + '</b><br/><br/>' +  
+                    this.x + ': ' + this.y + '单位';  
+                    }  
+                },  
+                legend: {  
+                    layout: 'vertical',  
+                    align: 'right',  
+                    verticalAlign: 'top',  
+                    x: -20,  
+                    y: 200,  
+                    borderWidth: 0  
+                },  
+                series: [{  
+                    name: '用户1',  
+                    data: [22, 22, 95, 245, 282, 225, 252, 265, 222, 282, 229, 96]  
+                }, {  
+                    name: '用户2',  
+                    data: [02, 08, 57, 222, 270, 220, 248, 242, 202, 242, 86, 25]  
+                }, {  
+                    name: '用户3',  
+                    data: [9, 06, 25, 84, 225, 270, 286, 279, 242, 90, 29, 20]  
+                }, {  
+                    name: '用户4',  
+                    data: [29, 42, 57, 85, 229, 252, 270, 266, 242, 202, 66, 48]  
+                }]  
+            });  
+  
+</script>
+<script type="text/javascript">
+gvChartInit();
+$(document).ready(function(){
+	$('#myTable5').gvChart({
+		chartType: 'PieChart',
+		gvSettings: {
+			vAxis: {title: 'No of players'},
+			hAxis: {title: 'Month'},
+			width: 600,
+			height: 350
+		}
+	});
+});
+</script>
+
+<script type="text/javascript">
+gvChartInit();
+$(document).ready(function(){
+		$('#myTable1').gvChart({
+			chartType: 'PieChart',
+			gvSettings: {
+			vAxis: {title: 'No of players'},
+			hAxis: {title: 'Month'},
+			width: 600,
+			height: 350
+		}
+	});
+});
+</script>
+
+</body>
+</html>

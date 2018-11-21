@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" encoding="GB2312" method="xhtml"/>
+    <xsl:include href="common.xsl"/>
+    <xsl:template match="content">
+        <html>
+            <head>
+                <link rel="icon" href="diginter/base/zh-cn/img/xunshu.png" type="image/x-icon"/>
+                <title> - 数据管理 - </title>
+                <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+                    <xsl:text disable-output-escaping="no"> </xsl:text>
+                </meta>
+                <link rel="stylesheet" type="text/css" href="diginter/base/zh-cn/css/global.css" media="all">
+                    <xsl:text disable-output-escaping="no"> </xsl:text>
+                </link>
+                <link rel="stylesheet" type="text/css" href="diginter/base/zh-cn/css/public.css" media="all">
+                    <xsl:text disable-output-escaping="no"> </xsl:text>
+                </link>
+                <link rel="stylesheet" type="text/css" href="diginter/base/zh-cn/css/style.css" media="all">
+                    <xsl:text disable-output-escaping="no"> </xsl:text>
+                </link>
+                <script type="text/javascript" charset="utf-8" src="ueditor/ueditor.config.js">
+                    <xsl:text disable-output-escaping="no"> </xsl:text>
+                </script>
+                <script type="text/javascript" charset="utf-8" src="ueditor/ueditor.all.min.js">
+                    <xsl:text disable-output-escaping="no"> </xsl:text>
+                </script>
+                <!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
+                <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
+                <script type="text/javascript" charset="utf-8" src="ueditor/lang/zh-cn/zh-cn.js">
+                    <xsl:text disable-output-escaping="no"> </xsl:text>
+                </script>
+                <style>
+                    table th {
+                        padding-left:10px;
+                        padding-right:10px
+                    }
+
+                    .paging_full_numbers {
+                        bottom: 14px;
+                    }
+                </style>
+            </head>
+            <body style="position:relative;color:#fff">
+                <input id="c_resource_name" type="hidden">
+                    <xsl:attribute name="value">
+                        <xsl:value-of select="parameter.cludove/resource_name"/>
+                    </xsl:attribute>
+                </input>
+                <input id="c_connection_id" type="hidden">
+                    <xsl:attribute name="value">
+                        <xsl:value-of select="parameter.cludove/connection_id"/>
+                    </xsl:attribute>
+                </input>
+
+                <div id="db_table_data_setting">
+                    <xsl:text disable-output-escaping="no"> </xsl:text>
+                </div>
+
+                <div id="db_table_data_search">
+                    <xsl:text disable-output-escaping="no"> </xsl:text>
+                </div>
+            </body>
+            <script type="text/javascript" src="infoinge/base/zh-cn/js/jquery.min.js">
+                <xsl:text disable-output-escaping="no"> </xsl:text>
+            </script>
+            <script language="javascript" type="text/javascript" src="infoinge/base/zh-cn/js/ajaxfileupload.js">
+                <xsl:text disable-output-escaping="no"> </xsl:text>
+            </script>
+            <script language="javascript" type="text/javascript" src="infoinge/base/zh-cn/js/main.js">
+                <xsl:text disable-output-escaping="no"> </xsl:text>
+            </script>
+            <script language="javascript" type="text/javascript" src="infoinge/base/zh-cn/js/hinge.js">
+                <xsl:text disable-output-escaping="no"> </xsl:text>
+            </script>
+            <script language="javascript" type="text/javascript" src="infoinge/base/zh-cn/js/navigate.js">
+                <xsl:text disable-output-escaping="no"> </xsl:text>
+            </script>
+            <script language="javascript" type="text/javascript" src="infoinge/base/zh-cn/js/cookie.js" >
+                <xsl:text disable-output-escaping="no"> </xsl:text>
+            </script>
+            <script language="javascript" type="text/javascript" src="infoinge/base/zh-cn/js/infoinge-luban.js">
+                <xsl:text disable-output-escaping="no"> </xsl:text>
+            </script>
+            <script language="javascript" type="text/javascript" src="diginter/base/zh-cn/js/main.js">
+                <xsl:text disable-output-escaping="no"> </xsl:text>
+            </script>
+            <script type="text/javascript" src="diginter/base/zh-cn/js/diginter_configuration.js">
+                <xsl:text disable-output-escaping="no"> </xsl:text>
+            </script>
+            <!--<script type="text/javascript">-->
+            <!--$(document).ready(function() {var base64 = new Base64(); $('#return_content').text(base64.decode($('#return_content').text())); var ue = UE.getEditor('return_content');});-->
+            <!--</script>-->
+            <script type="text/javascript">
+                $(document).ready(function(){setupHttpHeader(); datas.inits();})
+            </script>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>

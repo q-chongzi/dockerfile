@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="icon" href="img/xunshu.png" type="image/x-icon"/>
+	<title> - 讯枢 - 数字立交 - </title>
+	<meta name="author" content="青云之上" />
+	<meta name="keywords" content="数据 融合 交换 同步 迁移 清洗 开发 框架 软件 工厂"/>
+	<meta name="description" content="数据标准化是唯一的解决方法，除此之外，都会让解决方法变得不经济"/>
+
+	<link rel="stylesheet" type="text/css" href="css/global.css"/>
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.4.custom.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/leaflet.css"/>
+	<link rel="stylesheet" type="text/css" href="css/validationEngine.jquery.css"/>
+	<link rel="stylesheet" type="text/css" href="css/introjs.css"/>
+
+	<style type="text/css">
+		body{
+				width:100%;
+				height: 100% !important;
+				color: #FFFFFF;
+				background: url(img/bg.jpg) no-repeat center;
+				position: relative;
+			}
+		.mapDiagram { width:100%;  height: 100%;}
+		#myDiagramDiv {  z-index: 9999;  }
+		#myDiagramDiv_network {background-color: whitesmoke; width: 100%;margin: auto; height: 1000px;}
+		.laydate_box{
+			box-sizing: content-box;
+		}
+		.laydate_box * {
+			box-sizing: content-box;
+		}
+		.introjs-tooltiptext{
+			color: #000000;
+			font-size: 10px;
+			line-height: 20px;
+		}
+		.introjs-hint{
+			z-index: 9999;
+		}
+	</style>
+	<script src="js/leaflet.js" type="text/javascript"></script>
+	<script src="js/proj4-compressed.js" type="text/javascript"></script>
+	<script src="js/proj4leaflet.js" type="text/javascript"></script>
+	<script src="js/go.js" type="text/javascript"></script>
+	<!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=cZGg27q3Yqu3Vl8qLoP4xYzy16nG23C4"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/library/AreaRestriction/1.2/src/AreaRestriction_min.js"></script> -->
+</head>
+<body>
+	<div id="init_id">
+		<div style="position:fixed;top:0;bottom:0;left:0;right:0;z-index:166;background:#133957"></div>
+		<div style="position:fixed;top:30%;left:42%;z-index:188">
+			<!--<img src="img/loading.gif" width="300" height="300"/></div>-->
+			<img src="img/1441607537270501.gif" width="300"/></div>
+	</div>
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/lc_switch.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	<script type="text/javascript" src="../../../infoinge/base/zh-cn/js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="js/birthday.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+	<script src="js/index.js" type="text/javascript"></script>
+	<!--<script src="js/network_view.js" type="text/javascript"></script>-->
+	<script src="js/diginter_signin.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/jquery.validationEngine.js"></script>
+	<script type="text/javascript" src="js/jquery.validationEngine-zh_CN.js"></script>
+	<script type="text/javascript" src="../../../infoinge/base/zh-cn/js/ajaxfileupload.js"></script>
+	<script type="text/javascript" src="../../../infoinge/base/zh-cn/js/hinge.js"></script>
+	<script type="text/javascript" src="../../../infoinge/base/zh-cn/js/infoinge-luban.js"></script>
+	<script type="text/javascript" src="../../../infoinge/base/zh-cn/js/laydate/laydate.js"></script>
+	<script type="text/javascript" src="js/navigate.js"></script>
+	<!--<script type="text/javascript" src="../../../infoinge/base/zh-cn/js/cookie.js"></script>
+	<script type="text/javascript" src="../../../infoinge/base/zh-cn/js/infoinge-luban.js"></script>-->
+
+	<!--<script type="text/javascript" src="../../../infoinge/base/zh-cn/js/infoinge.js"></script>-->
+
+	<script src="js/diginter_configuration.js" type="text/javascript"></script>
+	
+	<script src="js/socket.js" type="text/javascript"></script>
+	<script src="js/diginter_business.js" type="text/javascript"></script>
+	<script type="text/javascript" src=js/echarts.js></script>
+	<!--<script type="text/javascript" src=js/api.js></script>-->
+	<script type="text/javascript" src=js/statistics.js></script>
+	<script type="text/javascript" src=js/diginter_job.js></script>
+	<script src="js/diginter_monitor.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/activation.js"></script>
+	<script type="text/javascript" src="js/intro.js"></script>
+
+	<script>
+	    setupHttpHeader();
+	    
+		$('#init_id').load(
+				httpHeader
+				+ "s?buddle.cludove=diginter&catalog.cludove=index.load.view"
+				+ "&t=" + new Date().getTime(),
+				function (data, textStatus, jqXHR) {
+					if (textStatus == 'error') {
+						console.log(data);
+						hintError("载入资源连接列表失败！", false, "javascript:void(0)");
+						hintException(data, false, "javascript:void(0)");
+					} else{
+						if ($('.admin').text() == '请登录')
+							document.location.href = httpHeader;
+
+						$.ms_DatePicker({
+							YearSelector: ".sel_year",
+							MonthSelector: ".sel_month",
+							DaySelector: ".sel_day"
+						});
+						$.ms_DatePicker();
+//						indexMap.init();
+						monitor.init();
+						onResourceConnectionSelect('console_hinge_select', 'Hinge', '', 'onConsoleHingeChange()');
+						modifyIcon();
+						main();
+
+						isSupportWebSocket();
+			            myChart.init();
+						
+						monitorInit();
+						onExceptionWarningJournal();
+						onInstanceSearch();
+
+						onMacAddressSearch();
+
+//						BaiduMap.init();
+//						var guide_t = setTimeout("noviceGuidance();clearTimeout(guide_t)",700);
+					}
+				});
+	</script>
+</body>
+</html>

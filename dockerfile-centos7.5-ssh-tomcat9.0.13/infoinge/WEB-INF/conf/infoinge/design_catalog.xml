@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infoinge.design_catalog id="infoinge.DESIGN_CATALOG">
+	<resource>
+		<identifier>infoinge</identifier>
+		<name>DESIGN_CATALOG</name>
+		<style>NATANT</style>
+		<child>CODE,DESIGN_CODE,CATALOG_CODE,CONNECTION_CODE</child>
+		<type>12,12,12,12</type>
+		<unique>0</unique>
+		<sort>0</sort>
+		<remark>引用编码,连接标识,CATALOG_CODE,CONNECTION_CODE</remark>
+		<encoding>33,33,33,33</encoding>
+	</resource>
+	<title>
+		<field>
+			<tag><![CDATA[code]]></tag>
+			<name><![CDATA[引用编码]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[design_code]]></tag>
+			<name><![CDATA[连接标识]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[catalog_code]]></tag>
+			<name><![CDATA[CATALOG_CODE]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[connection_code]]></tag>
+			<name><![CDATA[CONNECTION_CODE]]></name>
+		</field>
+	</title>
+</infoinge.design_catalog>

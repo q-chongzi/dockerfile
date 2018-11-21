@@ -1,0 +1,244 @@
+2018-11-21 05:15:02
+An exception occur: com.cludove.dirigible.gear.exception.BaseException
+
+java.sql.SQLRecoverableException
+java.sql.SQLRecoverableException, Closed Connection
+oracle.jdbc.driver.PhysicalConnection.getAutoCommit(PhysicalConnection.java:2250)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2353)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2403)
+com.cludove.dirigible.gear.resource.database.connection.BaseConnection.commit(BaseConnection.java:150)
+com.cludove.dirigible.hold.db.DBData.closeConnections(DBData.java:454)
+com.cludove.hinge.processor.thread.DetectorProcessor.m_ALLATORIxDEMO(DetectorProcessor.java:83)
+com.cludove.hinge.processor.thread.DetectorProcessor.process(DetectorProcessor.java:26)
+jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+com.cludove.compass.buddle.Processor.run(Processor.java:80)
+java.base/java.lang.Thread.run(Unknown Source)
+.END.
+
+2018-11-21 05:15:02
+An exception occur: com.cludove.dirigible.gear.exception.BaseException
+
+java.sql.SQLRecoverableException
+java.sql.SQLRecoverableException, Closed Connection
+oracle.jdbc.driver.PhysicalConnection.getAutoCommit(PhysicalConnection.java:2250)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2353)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2403)
+com.cludove.dirigible.gear.resource.database.connection.BaseConnection.remove(BaseConnection.java:83)
+com.cludove.dirigible.hold.db.DBData.closeConnections(DBData.java:461)
+com.cludove.hinge.processor.thread.DetectorProcessor.m_ALLATORIxDEMO(DetectorProcessor.java:83)
+com.cludove.hinge.processor.thread.DetectorProcessor.process(DetectorProcessor.java:26)
+jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+com.cludove.compass.buddle.Processor.run(Processor.java:80)
+java.base/java.lang.Thread.run(Unknown Source)
+.END.
+
+2018-11-21 05:15:05
+An exception occur: com.cludove.dirigible.gear.exception.BaseException
+
+java.io.IOException
+java.io.IOException, Unable to unmap the mapped buffer: MMapIndexInput(path="/opt/apache-tomcat-9.0.13/webapps/infoinge/WEB-INF/conf/index/journal/_r.fdt")
+class java.lang.IllegalAccessException
+class org.apache.lucene.store.MMapDirectory$2$1 cannot access class jdk.internal.ref.Cleaner (in module java.base) because module java.base does not export jdk.internal.ref to unnamed module @5ca6435b
+java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Unknown Source)
+java.base/java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:325)
+org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:316)
+java.base/java.security.AccessController.doPrivileged(Native Method)
+org.apache.lucene.store.MMapDirectory$2.freeBuffer(MMapDirectory.java:316)
+org.apache.lucene.store.ByteBufferIndexInput.freeBuffer(ByteBufferIndexInput.java:376)
+org.apache.lucene.store.ByteBufferIndexInput.close(ByteBufferIndexInput.java:355)
+org.apache.lucene.codecs.lucene50.Lucene50CompoundFormat.write(Lucene50CompoundFormat.java:92)
+org.apache.lucene.index.IndexWriter.createCompoundFile(IndexWriter.java:4659)
+org.apache.lucene.index.DocumentsWriterPerThread.sealFlushedSegment(DocumentsWriterPerThread.java:492)
+org.apache.lucene.index.DocumentsWriterPerThread.flush(DocumentsWriterPerThread.java:459)
+org.apache.lucene.index.DocumentsWriter.doFlush(DocumentsWriter.java:503)
+org.apache.lucene.index.DocumentsWriter.flushAllThreads(DocumentsWriter.java:615)
+org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2799)
+org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2963)
+org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2930)
+com.cludove.dirigible.hold.Index.IndexSource.m_ALLATORIxDEMO(IndexSource.java:236)
+com.cludove.dirigible.hold.Index.IndexSource.addIndex(IndexSource.java:170)
+com.cludove.dirigible.hold.xml.XMLSource.build(XMLSource.java:551)
+com.cludove.dirigible.hold.db.DBSource.build(DBSource.java:198)
+com.cludove.dirigible.hold.db.DBSource.build(DBSource.java:177)
+com.cludove.compass.processor.thread.JournalLogger.m_ALLATORIxDEMO(JournalLogger.java:264)
+com.cludove.compass.processor.thread.JournalLogger.process(JournalLogger.java:204)
+jdk.internal.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+com.cludove.compass.buddle.Processor.run(Processor.java:80)
+java.base/java.lang.Thread.run(Unknown Source)
+.END.
+
+2018-11-21 05:15:07
+An exception occur: com.cludove.dirigible.gear.exception.BaseException
+
+java.io.IOException
+java.io.IOException, Unable to unmap the mapped buffer: MMapIndexInput(path="/opt/apache-tomcat-9.0.13/webapps/infoinge/WEB-INF/conf/index/journal/_s_Lucene50_0.tim")
+class java.lang.IllegalAccessException
+class org.apache.lucene.store.MMapDirectory$2$1 cannot access class jdk.internal.ref.Cleaner (in module java.base) because module java.base does not export jdk.internal.ref to unnamed module @5ca6435b
+java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Unknown Source)
+java.base/java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:325)
+org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:316)
+java.base/java.security.AccessController.doPrivileged(Native Method)
+org.apache.lucene.store.MMapDirectory$2.freeBuffer(MMapDirectory.java:316)
+org.apache.lucene.store.ByteBufferIndexInput.freeBuffer(ByteBufferIndexInput.java:376)
+org.apache.lucene.store.ByteBufferIndexInput.close(ByteBufferIndexInput.java:355)
+org.apache.lucene.codecs.lucene50.Lucene50CompoundFormat.write(Lucene50CompoundFormat.java:92)
+org.apache.lucene.index.IndexWriter.createCompoundFile(IndexWriter.java:4659)
+org.apache.lucene.index.DocumentsWriterPerThread.sealFlushedSegment(DocumentsWriterPerThread.java:492)
+org.apache.lucene.index.DocumentsWriterPerThread.flush(DocumentsWriterPerThread.java:459)
+org.apache.lucene.index.DocumentsWriter.doFlush(DocumentsWriter.java:503)
+org.apache.lucene.index.DocumentsWriter.flushAllThreads(DocumentsWriter.java:615)
+org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2799)
+org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2963)
+org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2930)
+com.cludove.dirigible.hold.Index.IndexSource.m_ALLATORIxDEMO(IndexSource.java:236)
+com.cludove.dirigible.hold.Index.IndexSource.addIndex(IndexSource.java:170)
+com.cludove.dirigible.hold.xml.XMLSource.build(XMLSource.java:551)
+com.cludove.dirigible.hold.db.DBSource.build(DBSource.java:198)
+com.cludove.dirigible.hold.db.DBSource.build(DBSource.java:177)
+com.cludove.compass.processor.thread.JournalLogger.m_ALLATORIxDEMO(JournalLogger.java:264)
+com.cludove.compass.processor.thread.JournalLogger.process(JournalLogger.java:204)
+jdk.internal.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+com.cludove.compass.buddle.Processor.run(Processor.java:80)
+java.base/java.lang.Thread.run(Unknown Source)
+.END.
+
+2018-11-21 05:15:10
+An exception occur: com.cludove.dirigible.gear.exception.BaseException
+
+java.io.IOException
+java.io.IOException, Unable to unmap the mapped buffer: MMapIndexInput(path="/opt/apache-tomcat-9.0.13/webapps/infoinge/WEB-INF/conf/index/journal/_t_Lucene50_0.tip")
+class java.lang.IllegalAccessException
+class org.apache.lucene.store.MMapDirectory$2$1 cannot access class jdk.internal.ref.Cleaner (in module java.base) because module java.base does not export jdk.internal.ref to unnamed module @5ca6435b
+java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Unknown Source)
+java.base/java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:325)
+org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:316)
+java.base/java.security.AccessController.doPrivileged(Native Method)
+org.apache.lucene.store.MMapDirectory$2.freeBuffer(MMapDirectory.java:316)
+org.apache.lucene.store.ByteBufferIndexInput.freeBuffer(ByteBufferIndexInput.java:376)
+org.apache.lucene.store.ByteBufferIndexInput.close(ByteBufferIndexInput.java:355)
+org.apache.lucene.codecs.lucene50.Lucene50CompoundFormat.write(Lucene50CompoundFormat.java:92)
+org.apache.lucene.index.IndexWriter.createCompoundFile(IndexWriter.java:4659)
+org.apache.lucene.index.DocumentsWriterPerThread.sealFlushedSegment(DocumentsWriterPerThread.java:492)
+org.apache.lucene.index.DocumentsWriterPerThread.flush(DocumentsWriterPerThread.java:459)
+org.apache.lucene.index.DocumentsWriter.doFlush(DocumentsWriter.java:503)
+org.apache.lucene.index.DocumentsWriter.flushAllThreads(DocumentsWriter.java:615)
+org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2799)
+org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2963)
+org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2930)
+com.cludove.dirigible.hold.Index.IndexSource.m_ALLATORIxDEMO(IndexSource.java:236)
+com.cludove.dirigible.hold.Index.IndexSource.addIndex(IndexSource.java:170)
+com.cludove.dirigible.hold.xml.XMLSource.build(XMLSource.java:551)
+com.cludove.dirigible.hold.db.DBSource.build(DBSource.java:198)
+com.cludove.dirigible.hold.db.DBSource.build(DBSource.java:177)
+com.cludove.compass.processor.thread.JournalLogger.m_ALLATORIxDEMO(JournalLogger.java:264)
+com.cludove.compass.processor.thread.JournalLogger.process(JournalLogger.java:204)
+jdk.internal.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+com.cludove.compass.buddle.Processor.run(Processor.java:80)
+java.base/java.lang.Thread.run(Unknown Source)
+.END.
+
+2018-11-21 05:15:10
+An exception occur: com.cludove.dirigible.gear.exception.BaseException
+
+java.io.IOException
+java.io.IOException, Unable to unmap the mapped buffer: MMapIndexInput(path="/opt/apache-tomcat-9.0.13/webapps/infoinge/WEB-INF/conf/index/journal/_u_Lucene54_0.dvd")
+class java.lang.IllegalAccessException
+class org.apache.lucene.store.MMapDirectory$2$1 cannot access class jdk.internal.ref.Cleaner (in module java.base) because module java.base does not export jdk.internal.ref to unnamed module @5ca6435b
+java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Unknown Source)
+java.base/java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:325)
+org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:316)
+java.base/java.security.AccessController.doPrivileged(Native Method)
+org.apache.lucene.store.MMapDirectory$2.freeBuffer(MMapDirectory.java:316)
+org.apache.lucene.store.ByteBufferIndexInput.freeBuffer(ByteBufferIndexInput.java:376)
+org.apache.lucene.store.ByteBufferIndexInput.close(ByteBufferIndexInput.java:355)
+org.apache.lucene.codecs.lucene50.Lucene50CompoundFormat.write(Lucene50CompoundFormat.java:92)
+org.apache.lucene.index.IndexWriter.createCompoundFile(IndexWriter.java:4659)
+org.apache.lucene.index.DocumentsWriterPerThread.sealFlushedSegment(DocumentsWriterPerThread.java:492)
+org.apache.lucene.index.DocumentsWriterPerThread.flush(DocumentsWriterPerThread.java:459)
+org.apache.lucene.index.DocumentsWriter.doFlush(DocumentsWriter.java:503)
+org.apache.lucene.index.DocumentsWriter.flushAllThreads(DocumentsWriter.java:615)
+org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2799)
+org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2963)
+org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2930)
+com.cludove.dirigible.hold.Index.IndexSource.m_ALLATORIxDEMO(IndexSource.java:236)
+com.cludove.dirigible.hold.Index.IndexSource.addIndex(IndexSource.java:170)
+com.cludove.dirigible.hold.xml.XMLSource.build(XMLSource.java:551)
+com.cludove.dirigible.hold.db.DBSource.build(DBSource.java:198)
+com.cludove.dirigible.hold.db.DBSource.build(DBSource.java:177)
+com.cludove.compass.processor.thread.JournalLogger.m_ALLATORIxDEMO(JournalLogger.java:264)
+com.cludove.compass.processor.thread.JournalLogger.process(JournalLogger.java:204)
+jdk.internal.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+com.cludove.compass.buddle.Processor.run(Processor.java:80)
+java.base/java.lang.Thread.run(Unknown Source)
+.END.
+
+2018-11-21 05:15:17
+ConnectionPool's reapConnections[jdbc:mysql://192.168.150.100:3306/infoinge_test1]: 0
+
+2018-11-21 05:15:29
+ConnectionPool's reapConnections[jdbc:oracle:thin:@192.168.150.100:1521:orcl]: 145
+
+2018-11-21 05:15:38
+ConnectionPool's reapConnections[jdbc:mysql://192.168.150.100:3306/infoinge_test1]: 0
+
+2018-11-21 05:15:58
+ConnectionPool's reapConnections[jdbc:mysql://192.168.150.100:3306/infoinge_test1]: 0
+
+2018-11-21 05:15:59
+An exception occur: com.cludove.dirigible.gear.exception.BaseException
+
+java.sql.SQLRecoverableException
+java.sql.SQLRecoverableException, Closed Connection
+oracle.jdbc.driver.PhysicalConnection.getAutoCommit(PhysicalConnection.java:2250)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2353)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2403)
+com.cludove.dirigible.gear.resource.database.connection.BaseConnection.commit(BaseConnection.java:150)
+com.cludove.dirigible.hold.db.DBData.closeConnections(DBData.java:454)
+com.cludove.hinge.processor.thread.DetectorProcessor.m_ALLATORIxDEMO(DetectorProcessor.java:83)
+com.cludove.hinge.processor.thread.DetectorProcessor.process(DetectorProcessor.java:26)
+jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+com.cludove.compass.buddle.Processor.run(Processor.java:80)
+java.base/java.lang.Thread.run(Unknown Source)
+.END.
+
+2018-11-21 05:15:59
+An exception occur: com.cludove.dirigible.gear.exception.BaseException
+
+java.sql.SQLRecoverableException
+java.sql.SQLRecoverableException, Closed Connection
+oracle.jdbc.driver.PhysicalConnection.getAutoCommit(PhysicalConnection.java:2250)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2353)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2403)
+com.cludove.dirigible.gear.resource.database.connection.BaseConnection.remove(BaseConnection.java:83)
+com.cludove.dirigible.hold.db.DBData.closeConnections(DBData.java:461)
+com.cludove.hinge.processor.thread.DetectorProcessor.m_ALLATORIxDEMO(DetectorProcessor.java:83)
+com.cludove.hinge.processor.thread.DetectorProcessor.process(DetectorProcessor.java:26)
+jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+com.cludove.compass.buddle.Processor.run(Processor.java:80)
+java.base/java.lang.Thread.run(Unknown Source)
+.END.
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:output encoding="GB2312" method="xml"/>
+	<xsl:template match="/">
+		<metadata>
+			<record.crest>
+				<name>
+					<xsl:text>transform</xsl:text>
+				</name>
+				<remark>
+					<xsl:text>默认方法</xsl:text>
+				</remark>
+				<type/>
+				<display>
+					<xsl:text>默认方法</xsl:text>
+				</display>
+			</record.crest>
+			<record.crest>
+				<name>
+					<xsl:text>m2</xsl:text>
+				</name>
+				<remark>
+					<xsl:text>调用方法2</xsl:text>
+				</remark>
+				<type/>
+				<display>
+					<xsl:text>调用方法2</xsl:text>
+				</display>
+			</record.crest>
+			<record.crest>
+				<name>
+					<xsl:text>m3</xsl:text>
+				</name>
+				<remark>
+					<xsl:text>调用方法3</xsl:text>
+				</remark>
+				<type/>
+				<display>
+					<xsl:text>调用方法3</xsl:text>
+				</display>
+			</record.crest>
+			<record.crest>
+				<name>
+					<xsl:text>m4</xsl:text>
+				</name>
+				<remark>
+					<xsl:text>调用方法4</xsl:text>
+				</remark>
+				<type/>
+				<display>
+					<xsl:text>调用方法4</xsl:text>
+				</display>
+			</record.crest>
+		</metadata>
+	</xsl:template>
+</xsl:stylesheet>

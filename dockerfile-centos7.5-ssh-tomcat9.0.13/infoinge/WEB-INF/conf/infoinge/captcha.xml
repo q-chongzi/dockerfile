@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><infoinge.captcha id="infoinge.CAPTCHA">
+	<resource>
+		<identifier>infoinge</identifier>
+		<name>CAPTCHA</name>
+		<style>NATANT</style>
+		<child>CODE,VALIDATE_CODE,SAVE_PATH,EFFECTIVE_DATE,CONNECTION_CODE</child>
+		<type>12,12,12,93,12</type>
+		<unique>0</unique>
+		<sort>0</sort>
+		<remark>插件编码,VALIDATE_CODE,描述,插件名字,CONNECTION_CODE</remark>
+		<encoding>33,33,33,33,33</encoding>
+	</resource>
+	<title>
+		<field>
+			<tag><![CDATA[code]]></tag>
+			<name><![CDATA[插件编码]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[validate_code]]></tag>
+			<name><![CDATA[VALIDATE_CODE]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[save_path]]></tag>
+			<name><![CDATA[描述]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[effective_date]]></tag>
+			<name><![CDATA[插件名字]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[connection_code]]></tag>
+			<name><![CDATA[CONNECTION_CODE]]></name>
+		</field>
+	</title>
+	<record.crest>
+	<CODE><![CDATA[1480645881556087]]></CODE>
+	<VALIDATE_CODE><![CDATA[gzsw]]></VALIDATE_CODE>
+	<SAVE_PATH><![CDATA[gY+SHJvY0uDAuPdKPIji7Cpyh9E0FTG4C26CRTd5mWA2F9tIHvZOkAG1ZUkLJs4q]]></SAVE_PATH>
+	<EFFECTIVE_DATE><![CDATA[2023-10-23 00:00:00]]></EFFECTIVE_DATE>
+	<CONNECTION_CODE><![CDATA[1480645881556000]]></CONNECTION_CODE>
+	</record.crest>
+	<record.crest><CODE><![CDATA[1540277852607001]]></CODE><VALIDATE_CODE><![CDATA[zqiu]]></VALIDATE_CODE><SAVE_PATH><![CDATA[9391f3800fb0511d059f49866210d131]]></SAVE_PATH><EFFECTIVE_DATE><![CDATA[2023-10-23 00:00:00]]></EFFECTIVE_DATE></record.crest></infoinge.captcha>

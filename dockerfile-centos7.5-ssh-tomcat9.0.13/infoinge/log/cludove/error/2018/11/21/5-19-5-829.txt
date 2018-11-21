@@ -1,0 +1,85 @@
+2018-11-21 05:19:05
+An exception occur: com.cludove.dirigible.gear.exception.BaseException
+
+java.sql.SQLRecoverableException
+java.sql.SQLRecoverableException, Closed Connection
+oracle.jdbc.driver.PhysicalConnection.getAutoCommit(PhysicalConnection.java:2250)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2353)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2403)
+com.cludove.dirigible.gear.resource.database.connection.BaseConnection.commit(BaseConnection.java:150)
+com.cludove.dirigible.hold.db.DBData.closeConnections(DBData.java:454)
+com.cludove.hinge.processor.thread.DetectorProcessor.m_ALLATORIxDEMO(DetectorProcessor.java:83)
+com.cludove.hinge.processor.thread.DetectorProcessor.process(DetectorProcessor.java:26)
+jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+com.cludove.compass.buddle.Processor.run(Processor.java:80)
+java.base/java.lang.Thread.run(Unknown Source)
+.END.
+
+2018-11-21 05:19:05
+An exception occur: com.cludove.dirigible.gear.exception.BaseException
+
+java.sql.SQLRecoverableException
+java.sql.SQLRecoverableException, Closed Connection
+oracle.jdbc.driver.PhysicalConnection.getAutoCommit(PhysicalConnection.java:2250)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2353)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2403)
+com.cludove.dirigible.gear.resource.database.connection.BaseConnection.remove(BaseConnection.java:83)
+com.cludove.dirigible.hold.db.DBData.closeConnections(DBData.java:461)
+com.cludove.hinge.processor.thread.DetectorProcessor.m_ALLATORIxDEMO(DetectorProcessor.java:83)
+com.cludove.hinge.processor.thread.DetectorProcessor.process(DetectorProcessor.java:26)
+jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+com.cludove.compass.buddle.Processor.run(Processor.java:80)
+java.base/java.lang.Thread.run(Unknown Source)
+.END.
+
+2018-11-21 05:19:14
+An exception occur: com.cludove.dirigible.gear.exception.BaseException
+
+java.sql.SQLRecoverableException
+java.sql.SQLRecoverableException, Closed Connection
+oracle.jdbc.driver.PhysicalConnection.getAutoCommit(PhysicalConnection.java:2250)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2353)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2403)
+com.cludove.dirigible.gear.resource.database.connection.BaseConnection.commit(BaseConnection.java:150)
+com.cludove.dirigible.hold.db.DBData.closeConnections(DBData.java:454)
+com.cludove.hinge.processor.thread.DetectorProcessor.m_ALLATORIxDEMO(DetectorProcessor.java:83)
+com.cludove.hinge.processor.thread.DetectorProcessor.process(DetectorProcessor.java:26)
+jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+com.cludove.compass.buddle.Processor.run(Processor.java:80)
+java.base/java.lang.Thread.run(Unknown Source)
+.END.
+
+2018-11-21 05:19:14
+An exception occur: com.cludove.dirigible.gear.exception.BaseException
+
+java.sql.SQLRecoverableException
+java.sql.SQLRecoverableException, Closed Connection
+oracle.jdbc.driver.PhysicalConnection.getAutoCommit(PhysicalConnection.java:2250)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2353)
+oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:2403)
+com.cludove.dirigible.gear.resource.database.connection.BaseConnection.remove(BaseConnection.java:83)
+com.cludove.dirigible.hold.db.DBData.closeConnections(DBData.java:461)
+com.cludove.hinge.processor.thread.DetectorProcessor.m_ALLATORIxDEMO(DetectorProcessor.java:83)
+com.cludove.hinge.processor.thread.DetectorProcessor.process(DetectorProcessor.java:26)
+jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.base/java.lang.reflect.Method.invoke(Unknown Source)
+com.cludove.compass.buddle.Processor.run(Processor.java:80)
+java.base/java.lang.Thread.run(Unknown Source)
+.END.
+
+2018-11-21 05:19:19
+ConnectionPool's reapConnections[jdbc:mysql://192.168.150.100:3306/infoinge_test1]: 0
+
+2018-11-21 05:19:39
+ConnectionPool's reapConnections[jdbc:mysql://192.168.150.100:3306/infoinge_test1]: 0
+
+2018-11-21 05:19:41
+ConnectionPool's reapConnections[jdbc:oracle:thin:@192.168.150.100:1521:orcl]: 134
+

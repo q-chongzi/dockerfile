@@ -1,0 +1,599 @@
+<request.cludove><request name='会话控制'><![CDATA[98708AE66D58856E59717AEEEBAB2ABF]]></request><request name='请求标识'><![CDATA[1542777132483001]]></request><request name='请求头部'><![CDATA[[host : 192.168.0.56:32785, connection : keep-alive, accept : text/html, */*; q=0.01, x-requested-with : XMLHttpRequest, user-agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36, referer : https://192.168.0.56:32785/infoinge/diginter/base/zh-cn/index_diginter.html, accept-encoding : gzip, deflate, br, accept-language : zh-CN,zh;q=0.9, cookie : JSESSIONID=98708AE66D58856E59717AEEEBAB2ABF]]]></request><request name='请求参数'><![CDATA[[T : 1542777131925, catalog.cludove : index.load.view, buddle.cludove : diginter]]]></request><request name='请求地址'><![CDATA[192.168.0.38]]></request></request.cludove><preparatory.cludove><preparatory name='运行准备'><![CDATA[RemoteAddr: 192.168.0.38, RemoteHost: 192.168.0.38, RemotePort: 58673, RemoteUser: null -> https://192.168.0.56:32785/infoinge/s]]></preparatory><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND IDENTIFIER='diginter']]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true']]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND IS_DSB = 'true']]]></condition></preparatory.cludove><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND IDENTIFIER='index.load.view']]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND IDENTIFIER='index.load.view']]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND IDENTIFIER='diginter']]]></condition><configuration.cludove name='diginter.index.load.view'><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND CATALOG_ID='index.load.view' ]]]></condition></configuration.cludove><execution.configuration name='diginter.index.load.view'></execution.configuration><condition name='设置条件'><![CDATA[[IS_ACTIVE='true' AND BUDDLE_ID='diginter' AND IDENTIFIER='index.load.view']]]></condition><content><cludove.crest.spruce.permission_control></cludove.crest.spruce.permission_control><parameter.cludove><path><![CDATA[/infoinge]]></path><securityRequestPath.cludove><![CDATA[https://192.168.0.56:32785/infoinge/s]]></securityRequestPath.cludove><location.cludove><![CDATA[192.168.0.38-192.168.0.38:58645]]></location.cludove><domain><![CDATA[172.17.0.2]]></domain><requestPath.cludove><![CDATA[https://192.168.0.56:32785/infoinge/s]]></requestPath.cludove><user_agent><![CDATA[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]]></user_agent><logonTime.cludove><![CDATA[2018-11-21T05:12:05.536Z]]></logonTime.cludove><remote_addr><![CDATA[192.168.0.38]]></remote_addr><signed.cludove><![CDATA[true]]></signed.cludove><catalog.cludove><![CDATA[index.load.view]]></catalog.cludove><jsessionid><![CDATA[98708AE66D58856E59717AEEEBAB2ABF]]></jsessionid><session_time><![CDATA[1542777125536001]]></session_time><buddle.cludove><![CDATA[diginter]]></buddle.cludove><t><![CDATA[1542777131925]]></t><styleSetting.cludove><![CDATA[base]]></styleSetting.cludove><validationLogonAddress.cludove><![CDATA[https://192.168.0.56:32785/infoinge/s]]></validationLogonAddress.cludove><localhost.cludove><![CDATA[192.168.0.56]]></localhost.cludove><langSetting.cludove><![CDATA[zh-cn]]></langSetting.cludove><session_id><![CDATA[98708AE66D58856E59717AEEEBAB2ABF]]></session_id><universalLocalPath.cludove><![CDATA[https://192.168.0.56:32785/infoinge/s]]></universalLocalPath.cludove><isDsbSetting.cludove><![CDATA[false]]></isDsbSetting.cludove><account.cludove><![CDATA[admin]]></account.cludove></parameter.cludove><variants.cludove><variant.cludove><name>t</name><value><![CDATA[1542777131925]]></value></variant.cludove></variants.cludove><configuration.cludove><cludove.crest.spruce.buddle id="cludove.crest.spruce.BUDDLE"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>1</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>1</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[插件编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[is_synced_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[identifier]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[name]]></tag><name><![CDATA[插件名字]]></name></field><field><tag><![CDATA[is_permit]]></tag><name><![CDATA[是否判断权限]]></name></field><field><tag><![CDATA[is_home]]></tag><name><![CDATA[是否入口插件]]></name></field><field><tag><![CDATA[is_updating]]></tag><name><![CDATA[是否升级]]></name></field><field><tag><![CDATA[title]]></tag><name><![CDATA[TITLE]]></name></field><field><tag><![CDATA[validator]]></tag><name><![CDATA[VALIDATOR]]></name></field><field><tag><![CDATA[description]]></tag><name><![CDATA[描述]]></name></field><field><tag><![CDATA[is_running]]></tag><name><![CDATA[IS_RUNNING]]></name></field><field><tag><![CDATA[timing_year]]></tag><name><![CDATA[定时年]]></name></field><field><tag><![CDATA[timing_month]]></tag><name><![CDATA[定时年]]></name></field><field><tag><![CDATA[timing_day]]></tag><name><![CDATA[TIMING_DAY]]></name></field><field><tag><![CDATA[timing_hour]]></tag><name><![CDATA[TIMING_HOUR]]></name></field><field><tag><![CDATA[timing_minute]]></tag><name><![CDATA[TIMING_MINUTE]]></name></field><field><tag><![CDATA[is_synced_dsb]]></tag><name><![CDATA[是否已同步总线]]></name></field><field><tag><![CDATA[sync_dsb_reason]]></tag><name><![CDATA[同步总线原因]]></name></field><field><tag><![CDATA[sync_active_status]]></tag><name><![CDATA[同步状态]]></name></field><field><tag><![CDATA[sync_status]]></tag><name><![CDATA[同步状态]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[CONNECTION_CODE]]></name></field></title><record.crest><code><![CDATA[1512030522297001]]></code><is_active><![CDATA[true]]></is_active><is_synced_active><![CDATA[]]></is_synced_active><change_from><![CDATA[1516093538237001]]></change_from><change_index><![CDATA[0]]></change_index><change_number><![CDATA[10]]></change_number><secret><![CDATA[0]]></secret><secrecy><![CDATA[0]]></secrecy><builder><![CDATA[admin]]></builder><owner><![CDATA[admin]]></owner><start_date><![CDATA[1512030522279]]></start_date><end_date><![CDATA[0]]></end_date><identifier><![CDATA[diginter]]></identifier><name><![CDATA[数字立交]]></name><is_permit><![CDATA[true]]></is_permit><is_home><![CDATA[true]]></is_home><is_updating><![CDATA[false]]></is_updating><title><![CDATA[]]></title><validator><![CDATA[]]></validator><description><![CDATA[数字立交应用工程，用于提供所有功能配置、运行框架。]]></description><is_running><![CDATA[]]></is_running><timing_year><![CDATA[]]></timing_year><timing_month><![CDATA[]]></timing_month><timing_day><![CDATA[]]></timing_day><timing_hour><![CDATA[]]></timing_hour><timing_minute><![CDATA[]]></timing_minute><is_synced_dsb><![CDATA[true]]></is_synced_dsb><sync_dsb_reason><![CDATA[]]></sync_dsb_reason><sync_active_status><![CDATA[]]></sync_active_status><sync_status><![CDATA[]]></sync_status><connection_code><![CDATA[spruce-con-2010001]]></connection_code></record.crest></cludove.crest.spruce.buddle><cludove.crest.spruce.catalog id="cludove.crest.spruce.CATALOG"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>1</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>1</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[is_synced_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[identifier]]></tag><name><![CDATA[目录标识]]></name></field><field><tag><![CDATA[name]]></tag><name><![CDATA[目录名字]]></name></field><field><tag><![CDATA[type]]></tag><name><![CDATA[目录类型：FUNCTION[功能接口]、UPGRADE[升级方案]、TRANSFER[迁移方案]]]></name></field><field><tag><![CDATA[content_type]]></tag><name><![CDATA[MIME类型]]></name></field><field><tag><![CDATA[is_permit]]></tag><name><![CDATA[是否判断权限]]></name></field><field><tag><![CDATA[is_home]]></tag><name><![CDATA[是否应用入口]]></name></field><field><tag><![CDATA[is_pause]]></tag><name><![CDATA[是否暂停]]></name></field><field><tag><![CDATA[description]]></tag><name><![CDATA[描述]]></name></field><field><tag><![CDATA[class]]></tag><name><![CDATA[处理类]]></name></field><field><tag><![CDATA[is_running]]></tag><name><![CDATA[IS_RUNNING]]></name></field><field><tag><![CDATA[frequentness]]></tag><name><![CDATA[YEAR|年，MONTH|月，DAY|天，HOUR|时，MINUTE|分，SECOND|秒]]></name></field><field><tag><![CDATA[interval_time]]></tag><name><![CDATA[是否入口插件]]></name></field><field><tag><![CDATA[join_time]]></tag><name><![CDATA[JOIN_TIME]]></name></field><field><tag><![CDATA[run_start_hour]]></tag><name><![CDATA[是否升级]]></name></field><field><tag><![CDATA[run_start_minute]]></tag><name><![CDATA[是否升级]]></name></field><field><tag><![CDATA[run_finish_hour]]></tag><name><![CDATA[是否升级]]></name></field><field><tag><![CDATA[run_finish_minute]]></tag><name><![CDATA[是否升级]]></name></field><field><tag><![CDATA[timing_year]]></tag><name><![CDATA[定时年]]></name></field><field><tag><![CDATA[timing_month]]></tag><name><![CDATA[定时年]]></name></field><field><tag><![CDATA[timing_day]]></tag><name><![CDATA[TIMING_DAY]]></name></field><field><tag><![CDATA[timing_hour]]></tag><name><![CDATA[TIMING_HOUR]]></name></field><field><tag><![CDATA[timing_minute]]></tag><name><![CDATA[TIMING_MINUTE]]></name></field><field><tag><![CDATA[is_for_each]]></tag><name><![CDATA[IS_FOR_EACH]]></name></field><field><tag><![CDATA[select_expression]]></tag><name><![CDATA[SELECT_EXPRESSION]]></name></field><field><tag><![CDATA[is_synced_dsb]]></tag><name><![CDATA[是否已同步总线]]></name></field><field><tag><![CDATA[is_issue_dsb]]></tag><name><![CDATA[是否发布总线]]></name></field><field><tag><![CDATA[is_log]]></tag><name><![CDATA[是否已同步总线]]></name></field><field><tag><![CDATA[sync_dsb_reason]]></tag><name><![CDATA[同步总线原因]]></name></field><field><tag><![CDATA[sync_active_status]]></tag><name><![CDATA[同步状态]]></name></field><field><tag><![CDATA[sync_status]]></tag><name><![CDATA[同步状态]]></name></field><field><tag><![CDATA[is_metadata]]></tag><name><![CDATA[IS_METADATA]]></name></field><field><tag><![CDATA[has_set_metadata]]></tag><name><![CDATA[是否设置过数据元数据]]></name></field><field><tag><![CDATA[is_exchange]]></tag><name><![CDATA[是否讯枢交换]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[CONNECTION_CODE]]></name></field></title><record.crest><code><![CDATA[1513580411015001]]></code><is_active><![CDATA[true]]></is_active><is_synced_active><![CDATA[]]></is_synced_active><change_from><![CDATA[]]></change_from><change_index><![CDATA[0]]></change_index><change_number><![CDATA[0]]></change_number><secret><![CDATA[0]]></secret><secrecy><![CDATA[0]]></secrecy><builder><![CDATA[admin]]></builder><owner><![CDATA[admin]]></owner><start_date><![CDATA[1513580411001]]></start_date><end_date><![CDATA[0]]></end_date><buddle_id><![CDATA[diginter]]></buddle_id><identifier><![CDATA[index.load.view]]></identifier><name><![CDATA[数字立交首页显示]]></name><type><![CDATA[function]]></type><content_type><![CDATA[text/html]]></content_type><is_permit><![CDATA[false]]></is_permit><is_home><![CDATA[false]]></is_home><is_pause><![CDATA[false]]></is_pause><description><![CDATA[]]></description><class><![CDATA[]]></class><is_running><![CDATA[false]]></is_running><frequentness><![CDATA[year]]></frequentness><interval_time><![CDATA[]]></interval_time><join_time><![CDATA[]]></join_time><run_start_hour><![CDATA[]]></run_start_hour><run_start_minute><![CDATA[]]></run_start_minute><run_finish_hour><![CDATA[]]></run_finish_hour><run_finish_minute><![CDATA[]]></run_finish_minute><timing_year><![CDATA[]]></timing_year><timing_month><![CDATA[]]></timing_month><timing_day><![CDATA[]]></timing_day><timing_hour><![CDATA[]]></timing_hour><timing_minute><![CDATA[]]></timing_minute><is_for_each><![CDATA[false]]></is_for_each><select_expression><![CDATA[]]></select_expression><is_synced_dsb><![CDATA[]]></is_synced_dsb><is_issue_dsb><![CDATA[false]]></is_issue_dsb><is_log><![CDATA[true]]></is_log><sync_dsb_reason><![CDATA[]]></sync_dsb_reason><sync_active_status><![CDATA[]]></sync_active_status><sync_status><![CDATA[]]></sync_status><is_metadata><![CDATA[]]></is_metadata><has_set_metadata><![CDATA[]]></has_set_metadata><is_exchange><![CDATA[]]></is_exchange><connection_code><![CDATA[spruce-con-2010001]]></connection_code></record.crest></cludove.crest.spruce.catalog><cludove.crest.spruce.data id="cludove.crest.spruce.DATA"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>1</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>1</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[数据编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[is_synced_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[name]]></tag><name><![CDATA[数据名字]]></name></field><field><tag><![CDATA[type]]></tag><name><![CDATA[数据类型：DB[数据库]，HINGE[枢纽]，WS[其他服务]，XML[XML存储]]]></name></field><field><tag><![CDATA[connection_id]]></tag><name><![CDATA[连接标识]]></name></field><field><tag><![CDATA[resource_name]]></tag><name><![CDATA[操作对象]]></name></field><field><tag><![CDATA[operation]]></tag><name><![CDATA[操作名字]]></name></field><field><tag><![CDATA[is_paginate]]></tag><name><![CDATA[是否分页]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[处理顺序]]></name></field><field><tag><![CDATA[is_permit]]></tag><name><![CDATA[是否判断权限]]></name></field><field><tag><![CDATA[is_full]]></tag><name><![CDATA[是否全取数据]]></name></field><field><tag><![CDATA[row_number]]></tag><name><![CDATA[ROW_NUMBER]]></name></field><field><tag><![CDATA[uniques]]></tag><name><![CDATA[唯一描述]]></name></field><field><tag><![CDATA[is_descend]]></tag><name><![CDATA[IS_DESCEND]]></name></field><field><tag><![CDATA[resource_buddle]]></tag><name><![CDATA[查询语句]]></name></field><field><tag><![CDATA[description]]></tag><name><![CDATA[描述]]></name></field><field><tag><![CDATA[is_for_each]]></tag><name><![CDATA[IS_FOR_EACH]]></name></field><field><tag><![CDATA[select_expression]]></tag><name><![CDATA[SELECT_EXPRESSION]]></name></field><field><tag><![CDATA[classify]]></tag><name><![CDATA[CLASSIFY]]></name></field><field><tag><![CDATA[data_method]]></tag><name><![CDATA[DATA_METHOD]]></name></field><field><tag><![CDATA[is_synced_dsb]]></tag><name><![CDATA[是否已同步总线]]></name></field><field><tag><![CDATA[sync_dsb_reason]]></tag><name><![CDATA[同步总线原因]]></name></field><field><tag><![CDATA[sync_active_status]]></tag><name><![CDATA[同步状态]]></name></field><field><tag><![CDATA[sync_status]]></tag><name><![CDATA[同步状态]]></name></field><field><tag><![CDATA[remove_repeat_field]]></tag><name><![CDATA[去重字段]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[CONNECTION_CODE]]></name></field></title><record.crest><code><![CDATA[1484718496651111]]></code><is_active><![CDATA[true]]></is_active><is_synced_active><![CDATA[]]></is_synced_active><change_from><![CDATA[]]></change_from><change_index><![CDATA[0]]></change_index><change_number><![CDATA[1]]></change_number><secret><![CDATA[0]]></secret><secrecy><![CDATA[7]]></secrecy><builder><![CDATA[admin]]></builder><owner><![CDATA[admin]]></owner><start_date><![CDATA[0]]></start_date><end_date><![CDATA[0]]></end_date><buddle_id><![CDATA[diginter]]></buddle_id><catalog_id><![CDATA[index.load.view]]></catalog_id><name><![CDATA[判断是否为集群版]]></name><type><![CDATA[Class]]></type><connection_id><![CDATA[]]></connection_id><resource_name><![CDATA[com.cludove.hinge.processor.data.instance.InstanceTypeSearch]]></resource_name><operation><![CDATA[]]></operation><is_paginate><![CDATA[false]]></is_paginate><position><![CDATA[0]]></position><is_permit><![CDATA[true]]></is_permit><is_full><![CDATA[false]]></is_full><row_number><![CDATA[]]></row_number><uniques><![CDATA[CODE]]></uniques><is_descend><![CDATA[false]]></is_descend><resource_buddle><![CDATA[]]></resource_buddle><description><![CDATA[]]></description><is_for_each><![CDATA[false]]></is_for_each><select_expression><![CDATA[]]></select_expression><classify><![CDATA[]]></classify><data_method><![CDATA[]]></data_method><is_synced_dsb><![CDATA[]]></is_synced_dsb><sync_dsb_reason><![CDATA[]]></sync_dsb_reason><sync_active_status><![CDATA[]]></sync_active_status><sync_status><![CDATA[]]></sync_status><remove_repeat_field><![CDATA[]]></remove_repeat_field><connection_code><![CDATA[spruce-con-2010001]]></connection_code></record.crest></cludove.crest.spruce.data><cludove.crest.spruce.catalog_response id="cludove.crest.spruce.CATALOG_RESPONSE"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[test_expression]]></tag><name><![CDATA[用于判断是否输出指定条件的样式文件部分]]></name></field><field><tag><![CDATA[is_for_each]]></tag><name><![CDATA[IS_FOR_EACH]]></name></field><field><tag><![CDATA[select_expression]]></tag><name><![CDATA[SELECT_EXPRESSION]]></name></field><field><tag><![CDATA[response_format]]></tag><name><![CDATA[XML、JSON、TEXT]]></name></field><field><tag><![CDATA[start_symbol]]></tag><name><![CDATA[START_SYMBOL]]></name></field><field><tag><![CDATA[end_symbol]]></tag><name><![CDATA[END_SYMBOL]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.catalog_response><cludove.crest.spruce.response_item id="cludove.crest.spruce.RESPONSE_ITEM"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[response_code]]></tag><name><![CDATA[RESPONSE_CODE]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[item_name]]></tag><name><![CDATA[插件名字]]></name></field><field><tag><![CDATA[test_expression]]></tag><name><![CDATA[用于判断是否输出指定条件的样式文件部分]]></name></field><field><tag><![CDATA[is_for_each]]></tag><name><![CDATA[IS_FOR_EACH]]></name></field><field><tag><![CDATA[select_expression]]></tag><name><![CDATA[SELECT_EXPRESSION]]></name></field><field><tag><![CDATA[start_symbol]]></tag><name><![CDATA[START_SYMBOL]]></name></field><field><tag><![CDATA[end_symbol]]></tag><name><![CDATA[END_SYMBOL]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.response_item><cludove.crest.spruce.item_value id="cludove.crest.spruce.ITEM_VALUE"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[item_code]]></tag><name><![CDATA[ITEM_CODE]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[item_name]]></tag><name><![CDATA[插件名字]]></name></field><field><tag><![CDATA[test_expression]]></tag><name><![CDATA[用于判断是否输出指定条件的样式文件部分]]></name></field><field><tag><![CDATA[select_expression]]></tag><name><![CDATA[SELECT_EXPRESSION]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.item_value><cludove.crest.spruce.exception_response id="cludove.crest.spruce.EXCEPTION_RESPONSE"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[test_expression]]></tag><name><![CDATA[用于判断是否输出指定条件的样式文件部分]]></name></field><field><tag><![CDATA[is_for_each]]></tag><name><![CDATA[IS_FOR_EACH]]></name></field><field><tag><![CDATA[select_expression]]></tag><name><![CDATA[SELECT_EXPRESSION]]></name></field><field><tag><![CDATA[response_format]]></tag><name><![CDATA[XML、JSON、TEXT]]></name></field><field><tag><![CDATA[start_symbol]]></tag><name><![CDATA[START_SYMBOL]]></name></field><field><tag><![CDATA[end_symbol]]></tag><name><![CDATA[END_SYMBOL]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.exception_response><cludove.crest.spruce.data_parameter id="cludove.crest.spruce.DATA_PARAMETER"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[data_code]]></tag><name><![CDATA[DATA_CODE]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[parameter_name]]></tag><name><![CDATA[样式单中的变量定义]]></name></field><field><tag><![CDATA[select_expression]]></tag><name><![CDATA[SELECT_EXPRESSION]]></name></field><field><tag><![CDATA[class]]></tag><name><![CDATA[处理类]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.data_parameter><cludove.crest.spruce.data_variable id="cludove.crest.spruce.DATA_VARIABLE"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[data_code]]></tag><name><![CDATA[DATA_CODE]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[variable_name]]></tag><name><![CDATA[样式单中的变量定义]]></name></field><field><tag><![CDATA[select_expression]]></tag><name><![CDATA[SELECT_EXPRESSION]]></name></field><field><tag><![CDATA[class]]></tag><name><![CDATA[处理类]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.data_variable><cludove.crest.spruce.data_value id="cludove.crest.spruce.DATA_VALUE"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[data_code]]></tag><name><![CDATA[DATA_CODE]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[test_expression]]></tag><name><![CDATA[用于判断是否输出指定条件的样式文件部分]]></name></field><field><tag><![CDATA[is_for_each]]></tag><name><![CDATA[IS_FOR_EACH]]></name></field><field><tag><![CDATA[select_expression]]></tag><name><![CDATA[SELECT_EXPRESSION]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.data_value><cludove.crest.spruce.data_mapping id="cludove.crest.spruce.DATA_MAPPING"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[连接编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[value_code]]></tag><name><![CDATA[VALUE_CODE]]></name></field><field><tag><![CDATA[s_data_code]]></tag><name><![CDATA[S_DATA_CODE]]></name></field><field><tag><![CDATA[is_main]]></tag><name><![CDATA[IS_MAIN]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[处理顺序]]></name></field><field><tag><![CDATA[test_expression]]></tag><name><![CDATA[用于判断是否输出指定条件的样式文件部分]]></name></field><field><tag><![CDATA[s_identifier]]></tag><name><![CDATA[S_IDENTIFIER]]></name></field><field><tag><![CDATA[s_resource_name]]></tag><name><![CDATA[S_RESOURCE_NAME]]></name></field><field><tag><![CDATA[s_resource_diaplay]]></tag><name><![CDATA[S_RESOURCE_DIAPLAY]]></name></field><field><tag><![CDATA[s_field]]></tag><name><![CDATA[S_FIELD]]></name></field><field><tag><![CDATA[s_field_type]]></tag><name><![CDATA[S_FIELD_TYPE]]></name></field><field><tag><![CDATA[r_data_code]]></tag><name><![CDATA[R_DATA_CODE]]></name></field><field><tag><![CDATA[r_identifier]]></tag><name><![CDATA[R_IDENTIFIER]]></name></field><field><tag><![CDATA[r_resource_name]]></tag><name><![CDATA[R_RESOURCE_NAME]]></name></field><field><tag><![CDATA[r_resource_diaplay]]></tag><name><![CDATA[R_RESOURCE_DIAPLAY]]></name></field><field><tag><![CDATA[r_field]]></tag><name><![CDATA[R_FIELD]]></name></field><field><tag><![CDATA[r_field_type]]></tag><name><![CDATA[R_FIELD_TYPE]]></name></field><field><tag><![CDATA[prefix_symbol]]></tag><name><![CDATA[前置符号]]></name></field><field><tag><![CDATA[operation]]></tag><name><![CDATA[运算符号]]></name></field><field><tag><![CDATA[suffix_symbol]]></tag><name><![CDATA[后置符号]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[CONNECTION_CODE]]></name></field></title></cludove.crest.spruce.data_mapping><cludove.crest.spruce.value_tag id="cludove.crest.spruce.VALUE_TAG"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[data_code]]></tag><name><![CDATA[DATA_CODE]]></name></field><field><tag><![CDATA[value_code]]></tag><name><![CDATA[VALUE_CODE]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[tag_name]]></tag><name><![CDATA[TAG_NAME]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.value_tag><cludove.crest.spruce.tag_item id="cludove.crest.spruce.TAG_ITEM"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[data_code]]></tag><name><![CDATA[DATA_CODE]]></name></field><field><tag><![CDATA[tag_code]]></tag><name><![CDATA[TAG_CODE]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[test_expression]]></tag><name><![CDATA[用于判断是否输出指定条件的样式文件部分]]></name></field><field><tag><![CDATA[select_expression]]></tag><name><![CDATA[SELECT_EXPRESSION]]></name></field><field><tag><![CDATA[class]]></tag><name><![CDATA[处理类]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.tag_item><cludove.crest.spruce.data_condition id="cludove.crest.spruce.DATA_CONDITION"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[data_code]]></tag><name><![CDATA[DATA_CODE]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[test_expression]]></tag><name><![CDATA[用于判断是否输出指定条件的样式文件部分]]></name></field><field><tag><![CDATA[is_for_each]]></tag><name><![CDATA[IS_FOR_EACH]]></name></field><field><tag><![CDATA[select_expression]]></tag><name><![CDATA[SELECT_EXPRESSION]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.data_condition><cludove.crest.spruce.condition_tag id="cludove.crest.spruce.CONDITION_TAG"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[data_code]]></tag><name><![CDATA[DATA_CODE]]></name></field><field><tag><![CDATA[condition_code]]></tag><name><![CDATA[CONDITION_CODE]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[tag_name]]></tag><name><![CDATA[TAG_NAME]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.condition_tag><cludove.crest.spruce.data_expression id="cludove.crest.spruce.DATA_EXPRESSION"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[data_code]]></tag><name><![CDATA[DATA_CODE]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[test_expression]]></tag><name><![CDATA[用于判断是否输出指定条件的样式文件部分]]></name></field><field><tag><![CDATA[is_for_each]]></tag><name><![CDATA[IS_FOR_EACH]]></name></field><field><tag><![CDATA[select_expression]]></tag><name><![CDATA[SELECT_EXPRESSION]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.data_expression><cludove.crest.spruce.expression_item id="cludove.crest.spruce.EXPRESSION_ITEM"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[data_code]]></tag><name><![CDATA[DATA_CODE]]></name></field><field><tag><![CDATA[expression_code]]></tag><name><![CDATA[EXPRESSION_CODE]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[logical_symbol]]></tag><name><![CDATA[LOGICAL_SYMBOL]]></name></field><field><tag><![CDATA[left_brace_number]]></tag><name><![CDATA[LEFT_BRACE_NUMBER]]></name></field><field><tag><![CDATA[field_name]]></tag><name><![CDATA[用于判断是否输出指定条件的样式文件部分]]></name></field><field><tag><![CDATA[field_type]]></tag><name><![CDATA[字段的SQL类型]]></name></field><field><tag><![CDATA[sql_operator]]></tag><name><![CDATA[SQL_OPERATOR]]></name></field><field><tag><![CDATA[select_expression]]></tag><name><![CDATA[SELECT_EXPRESSION]]></name></field><field><tag><![CDATA[class]]></tag><name><![CDATA[处理类]]></name></field><field><tag><![CDATA[right_brace_number]]></tag><name><![CDATA[RIGHT_BRACE_NUMBER]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.expression_item><cludove.crest.spruce.data_order id="cludove.crest.spruce.DATA_ORDER"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[data_code]]></tag><name><![CDATA[DATA_CODE]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[field_name]]></tag><name><![CDATA[FIELD_NAME]]></name></field><field><tag><![CDATA[is_descend]]></tag><name><![CDATA[IS_DESCEND]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.data_order><cludove.crest.spruce.data_group id="cludove.crest.spruce.DATA_GROUP"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[映射编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[插件标识]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[目录编码]]></name></field><field><tag><![CDATA[data_code]]></tag><name><![CDATA[DATA_CODE]]></name></field><field><tag><![CDATA[position]]></tag><name><![CDATA[POSITION]]></name></field><field><tag><![CDATA[field_name]]></tag><name><![CDATA[FIELD_NAME]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[数据库连接编码]]></name></field></title></cludove.crest.spruce.data_group><cludove.crest.spruce.resource_relevance id="cludove.crest.spruce.RESOURCE_RELEVANCE"><pagination.cludove><pageNumber.cludove>0</pageNumber.cludove><totalNumber.cludove>0</totalNumber.cludove><recordNumber.cludove>15</recordNumber.cludove><totalPage.cludove>0</totalPage.cludove></pagination.cludove><title><field><tag><![CDATA[code]]></tag><name><![CDATA[连接编码]]></name></field><field><tag><![CDATA[is_active]]></tag><name><![CDATA[是否使用]]></name></field><field><tag><![CDATA[change_from]]></tag><name><![CDATA[记录来源]]></name></field><field><tag><![CDATA[change_index]]></tag><name><![CDATA[CHANGE_INDEX]]></name></field><field><tag><![CDATA[change_number]]></tag><name><![CDATA[CHANGE_NUMBER]]></name></field><field><tag><![CDATA[secret]]></tag><name><![CDATA[SECRET]]></name></field><field><tag><![CDATA[secrecy]]></tag><name><![CDATA[密级]]></name></field><field><tag><![CDATA[builder]]></tag><name><![CDATA[创建者]]></name></field><field><tag><![CDATA[owner]]></tag><name><![CDATA[OWNER]]></name></field><field><tag><![CDATA[start_date]]></tag><name><![CDATA[开始使用日期]]></name></field><field><tag><![CDATA[end_date]]></tag><name><![CDATA[结束使用日期]]></name></field><field><tag><![CDATA[buddle_id]]></tag><name><![CDATA[BUDDLE_ID]]></name></field><field><tag><![CDATA[catalog_id]]></tag><name><![CDATA[CATALOG_ID]]></name></field><field><tag><![CDATA[s_identifier]]></tag><name><![CDATA[S_IDENTIFIER]]></name></field><field><tag><![CDATA[s_resource_name]]></tag><name><![CDATA[S_RESOURCE_NAME]]></name></field><field><tag><![CDATA[s_resource_diaplay]]></tag><name><![CDATA[S_RESOURCE_DIAPLAY]]></name></field><field><tag><![CDATA[s_field]]></tag><name><![CDATA[S_FIELD]]></name></field><field><tag><![CDATA[s_field_type]]></tag><name><![CDATA[S_FIELD_TYPE]]></name></field><field><tag><![CDATA[r_identifier]]></tag><name><![CDATA[R_IDENTIFIER]]></name></field><field><tag><![CDATA[r_resource_name]]></tag><name><![CDATA[R_RESOURCE_NAME]]></name></field><field><tag><![CDATA[r_resource_diaplay]]></tag><name><![CDATA[R_RESOURCE_DIAPLAY]]></name></field><field><tag><![CDATA[r_field]]></tag><name><![CDATA[R_FIELD]]></name></field><field><tag><![CDATA[r_field_type]]></tag><name><![CDATA[R_FIELD_TYPE]]></name></field><field><tag><![CDATA[connection_code]]></tag><name><![CDATA[CONNECTION_CODE]]></name></field></title></cludove.crest.spruce.resource_relevance></configuration.cludove><instance.type>standalone</instance.type></content><response.result><div class="mapDiagram" style="width:100%;height: 100%;position: fixed" id="map">
+<div class="mapDiagram" id="myDiagramDiv" style="width:100%;  height: 100%;"></div>
+</div><div style="display:none;width:100%;height:100%;position: fixed;" id="network_view">
+<div id="myDiagramDiv_network"></div>
+</div><div class="menu">
+<div class="header">
+<div class="header-con">
+<img class="header-img" src="img/head.bg.png"><div class="logo">
+<a href=""><img alt="" src="img/logo.png"></a>
+</div>
+<div class="operation operation1" id="operation_guide" data-step="8" data-intro="操作指南：在这里可以查看所有功能的功能介绍和详细说明等。">
+<span class="oper"><a target="blank" href="guide.html?account=admin&amp;template=https://192.168.0.56:32785/infoinge/s&amp;content=business">
+                                操作指南
+                            </a></span>
+</div>
+<div style="left:310px" class="operation operation2">
+<span class="admin">admin</span>
+<div style="left:-100px" class="operation-nav operation-nav2 hidden">
+<ul style="padding-bottom:10px;" class="nav1">
+<li class="li1 li1-1">
+<a onclick="onPasswordBox()" href="javascript:void(0)"><i><img src="img/modifyAccount.png"></i>
+                                        修改密码
+                                    </a>
+</li>
+<li class="li1 li1-2">
+<a onclick="$.diginterLogout();" href="javascript:void(0)"><i><img src="img/accountOut.png"></i>
+                                        退出登录
+                                    </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="switch">
+<div id="second_div">
+<form data-step="9" data-intro="节点状态：这里显示集成节点、集群节点（自身节点）和总线节点的连接状态，蓝色表示正常连接，橘黄色表示无法连接，灰色表示没有节点。">
+<span onMouseOut="nodeInformationHide(this,'integrated_node_view')" onMouseOver="javascript:nodeInformationShow(this,'integrated_node_view');" style="cursor: pointer;">集成节点
+                                    <input autocomplete="off" disabled value="4" name="check-1" id="is_integration" class="switchP lcs_check" type="checkbox"></span><span onMouseOut="nodeInformationHide(this,'cluster_node_view')" onMouseOver="javascript:nodeInformationShow(this,'cluster_node_view');" style="cursor: pointer;">集群节点
+                                    <input autocomplete="off" disabled value="4" name="check-1" id="is_colony" class="switchP lcs_check" type="checkbox"></span><span onMouseOut="nodeInformationHide(this,'bus_node_view')" onMouseOver="javascript:nodeInformationShow(this,'bus_node_view');" style="cursor: pointer;">总线节点
+                                    <input autocomplete="off" disabled value="4" name="check-1" id="is_dsb" class="switchP lcs_check" type="checkbox"></span><span style="display: none" class="is_integration"></span><span style="display: none" class="is_colony"></span><span style="display: none" class="is_dsb"></span>
+</form>
+<div style="position:absolute;display:none;color:#8b8b8b;background:#ffffff;border-radius: 2px;" id="integrated_node_view"></div>
+<div style="position:absolute;display:none;color:#8b8b8b;background:#ffffff;border-radius: 2px;" id="cluster_node_view"></div>
+<div style="position:absolute;display:none;color:#8b8b8b;background:#ffffff;border-radius: 5px;" id="bus_node_view"></div>
+</div>
+</div>
+<div class="activation_prompt" id="activation_prompt"> 
+</div>
+<div class="activation_prompt" style="display:none" id="activate_purchase">
+<a data-step="14" data-intro="在这里进行激活或者购买！" id="guide_width">
+                            激活/购买
+                        </a>
+</div>
+<div class="languages">
+<select disabled name=""><option value="">中文(简体)</option><option value="">Deutsch</option><option value="">English</option><option value="">Russian</option><option value="">French</option><option value="">German</option></select>
+</div>
+<div class="serial_mac" id="serial_mac">
+<a target="_blank"> </a>
+</div>
+<div class="serial_mac" style="display:none" id="serial_mac_guide">
+<a data-step="13" data-intro="版本信息：在这里可以查看实例序号、MAC地址和数字立交的到期时间，请在过期前去营运网站购买租期。" target="_blank">
+                            &nbsp;&nbsp;实例序号：正在加载中...<br>
+<br>&nbsp;MAC地址：正在加载中...<br>
+<br>&nbsp;&nbsp;到期时间：正在加载中...
+                        </a>
+</div>
+<input id="template_business" type="hidden"><input value="false" id="business_guide_setting" type="hidden">
+<div data-intro="数字立交的业务在这里开展" data-step="1" class="itsm-nav" id="digital_interchange">
+<a title="作业监控" onclick="$('#first_monitor').trigger('click')" data-reveal-id="myModal6" class="big-link" data-step="2" data-intro="作业监控：可以查看正在进行、即将开始、休眠作业和已经结束的作业。" href="javascript:void(0)"><i class="nav1"></i></a><a title="数据统计" data-step="3" data-intro="数据统计：包括迁移统计、同步统计和操作统计信息，每个统计包括时时、日报、月报和年报统计。" onclick="statistics.report();" data-reveal-id="myModal4" class="big-link" href="javascript:void(0)"><i class="nav2"></i></a><a title="监控日志" onclick="CurentTime()" data-reveal-id="myModal" class="big-link" data-step="4" data-intro="监控日志：包括异常日志、操作日志、迁移日志、同步日志、定时任务和登录日志。" href="javascript:void(0)"><i class="nav3"></i></a><a title="业务模型" data-step="5" data-intro="业务模型：包括业务模型（添加功能目录和目录数据等，进行迁移/同步、配置权限等）、数据库、集成节点、总线节点、作业管理、异常响应和应用上传" data-hint="点击这里进入业务模型" data-hintPosition="middle-middle" data-reveal-id="myModal1" class="big-link" onclick="onResourceConnectionManage();" style="cursor: pointer;"><i class="nav4"></i></a><a title="基本设置" data-reveal-id="myModal2" class="big-link" data-step="6" data-intro="基本设置：包括驱动处理、系统词表、界面风格、语言支持、清洗规则和验证规则。" onclick="onProcessSearchMain('DB')" href="javascript:void(0)"><i class="nav5"></i></a><a title="帐号管理" data-reveal-id="myModal3" data-step="7" data-intro="帐号管理：在这里你可以添加数字立交用户帐号并赋予一定权限。" onclick="onAccountSetting('','');$('#jurisdiction_setting_main').hide();" href="javascript:void(0);"><i class="nav6"></i></a>
+</div>
+<div class="top-hid">
+<span style="margin-left:7.4%"><img src="img/top-hid.png"></span>
+</div>
+</div>
+<div class="top-spr hidden">
+<span><img src="img/top-spr.png"></span>
+</div>
+</div>
+<div class="map">
+<div class="mp mp1"></div>
+<div class="mp mp2"></div>
+</div>
+<div style="display:none" id="password_modification" class="retrieve-con">
+<div class="retrieve-con-tit">
+<p onclick="$('#password_modification').hide()" style="float:right;cursor:pointer">X</p>
+<p>修改密码</p>
+</div>
+<div class="retrieve-con-txt">
+<h1 style="line-height:40px">请输入你需要修改的密码</h1>
+<form class="form-horizontal" role="form" id="validate_password_modification_setting">
+<div>
+<label style="padding-left:14px" for="account_password_new">新密码：</label><input placeholder="请输入密码" value="" maxlength="32" id="account_password_new" class="user validate[required,custom[onchinaese]]" type="password">
+</div>
+<div>
+<label for="account_password_modification">确认密码：</label><input placeholder="两次输入的密码必须一致" value="" id="account_password_modification" maxlength="32" class="user validate[required,custom[onchinaese]]" type="password">
+</div>
+<br>
+<input class="sub" value="确定" onclick="onPasswordModification()" type="button">
+</form>
+</div>
+</div>
+<div style="display:none" id="diginter_activation" class="retrieve-con"></div>
+<div style="display:none" id="system_error_hints" class="retrieve-con">
+<div class="retrieve-con">
+<div class="retrieve-con-tit" style="position: relative">
+<p class="activation-title">警告信息</p>
+</div>
+<div class="retrieve-con-txt activation" id="activation_con" style="margin-top:50px;padding: 40px 10px 0;position: relative;">
+<h1> 
+</h1>
+<div style="color:#000000;font-size: 25px;font-weight: bold;position: absolute;top:48px;left:80px">
+                            系统遭到破环，请尝试自行修复，也可以联系管理员！
+                        </div>
+</div>
+</div>
+</div>
+<div style="position:absolute;display:none;color:#8b8b8b;background:#ffffff;border-radius: 2px;font-size:12px" id="connection_node_mouse_view"></div>
+<div class="menu-con1">
+<div id="index-con1" class="menu-con1-con">
+<div class="menu-con1-tit">
+                        异常报警
+                    </div>
+<div class="menu-con1-txt">
+<div class="menu-con-box">
+<ul id="exception_warning_view"></ul>
+</div>
+<a title="查看操作指南" target="_blank" class="help" href="guide.html?account=admin&amp;template=https://192.168.0.56:32785/infoinge/s&amp;content=alert"></a>
+</div>
+<div class="left-hid">
+<span><img src="img/left-hid.png"></span>
+</div>
+</div>
+<div class="left-spr hidden">
+<span><img src="img/left-spr.png"></span>
+</div>
+</div>
+<div class="hidden" id="monitoring_center_right"></div>
+<div class="network_view" id="network_view_display" data-step="12" data-intro="拓扑节点：点击该按钮后可查看节点和数据库连接状态，绿色表示连接成功的数据库，橘黄色表示连接失败的节点/数据库，点击蓝色的节点可查看API信息。" onclick="
+                            $('.map').hide();$('.header-con .itsm-nav').hide();monitor.onTopologyData();
+                        "></div>
+<div onclick="$('.map').show();$('.header-con .itsm-nav').show();$('#show_contact').hide();$('#city_network_view_display').hide();$('#network_view_display').show();$('#network_view').hide();" class="city_network_view" id="city_network_view_display" style="display: none"></div>
+<div class="menu-con2">
+<div id="index-con2" class="menu-con2-con">
+<div data-step="11" data-intro="数据异常：当数据库表的数据不符合验证规则时，会在这里显示数据异常信息（一般情况是迁移/同步时不符合验证规则时提示）。" class="menu-con1-tit">
+                        数据异常
+                    </div>
+<div class="menu-con1-txt">
+<div class="menu-con-box">
+<ul id="diginter_exception"> 
+</ul>
+</div>
+<a title="查看操作指南" target="_blank" class="help" href="guide.html?account=admin&amp;template=https://192.168.0.56:32785/infoinge/s&amp;content=alert"></a>
+</div>
+<div class="right-hid">
+<span><img src="img/right-hid.png"></span>
+</div>
+</div>
+<div class="right-spr hidden">
+<span><img src="img/right-spr.png"></span>
+</div>
+</div>
+<div class="hidden" id="exception_page"> 
+</div>
+<div class="menu-con3">
+<div id="index-con3" class="menu-con3-con">
+<div data-step="10" data-intro="服务总线：当被注册为总线节点时，可在这里同意/拒绝总线请求；当发起总线请求被拒绝时，可在这里重新发起请求。" class="menu-con1-tit">
+                        服务总线
+                    </div>
+<div id="serve_dsb" class="menu-con1-txt serve_dsb">
+<div class="menu-con-box">
+<div style="height: 110%;width: 110%;overflow: scroll;" class="serve_dsb_content">
+<ul id="diginter_serve"></ul>
+<ul id="diginter_dsb"></ul>
+<ul id="diginter_migr_sync"></ul>
+</div>
+</div>
+<a title="查看操作指南" target="_blank" class="help" href="guide.html?account=admin&amp;template=https://192.168.0.56:32785/infoinge/s&amp;content=alert"></a>
+</div>
+<div class="left-hid2">
+<span><img src="img/left-hid.png"></span>
+</div>
+</div>
+<div class="left-spr2 hidden">
+<span><img src="img/left-spr.png"></span>
+</div>
+</div>
+<div class="hidden" id="serve_page"></div>
+<div class=" menu-con4">
+<div id="index-con4" class="menu-con4-con">
+<div class="menu-con1-tit">
+                        系统监视
+                    </div>
+<div class="menu-con1-txt">
+<div class="menu-con-box">
+<div style="width:480px;height:350px;display:none;" id="resource_monitor_connect"></div>
+<div style="width:480px;height:290px;" id="resource_monitor_thread"></div>
+</div>
+<a title="查看操作指南" target="_blank" class="help" href="guide.html?account=admin&amp;template=https://192.168.0.56:32785/infoinge/s&amp;content=alert"></a>
+</div>
+<div class="right-hid2">
+<span><img src="img/right-hid.png"></span>
+</div>
+</div>
+<div class="right-spr2 hidden">
+<span><img src="img/right-spr.png"></span>
+</div>
+</div>
+<div id="myModal4" class="configure clearfix reveal-modal">
+<div class="configure-fl fl">
+<div class="configure-fl-about">
+<div class="configure-fl-about-tit">
+                            统计类型
+                        </div>
+<input value="1" id="statistics_navigate_type" type="hidden"><input value="0" id="report_time" type="hidden">
+<ul class="configure-nav1">
+<li>
+<a onclick="$(this).next().slideToggle()" style="border: 1px solid #EFF0F0" href="javascript:void(0)">操作统计
+                                </a>
+<ul>
+<li>
+<a onclick="$('#myModal4 ul ul a').removeClass('active');$(this).addClass('active');$('#report_time').val(0);$('#statistics_navigate_type').val(1);statistics.report();" class="active" href="javascript:void(0)">
+                                            时时统计
+                                        </a>
+</li>
+<li>
+<a onclick="$('#myModal4 ul ul a').removeClass('active');$(this).addClass('active');$('#report_time').val(1);$('#statistics_navigate_type').val(1);statistics.report();" href="javascript:void(0)">
+                                            日报统计
+                                        </a>
+</li>
+<li>
+<a onclick="$('#myModal4 ul ul a').removeClass('active');$(this).addClass('active');$('#report_time').val(2);$('#statistics_navigate_type').val(1);statistics.report();" href="javascript:void(0)">
+                                            月报统计
+                                        </a>
+</li>
+<li>
+<a onclick="$('#myModal4 ul ul a').removeClass('active');$(this).addClass('active');$('#report_time').val(3);$('#statistics_navigate_type').val(1);statistics.report();" href="javascript:void(0)">
+                                            年报统计
+                                        </a>
+</li>
+</ul>
+</li>
+<li>
+<a onclick="$(this).next().slideToggle()" style="border: 1px solid #EFF0F0" href="javascript:void(0)">同步统计
+                                </a>
+<ul class="hidden">
+<li>
+<a onclick="$('#myModal4 ul ul a').removeClass('active');$(this).addClass('active');$('#report_time').val(0);$('#statistics_navigate_type').val(4);statistics.report();" href="javascript:void(0)">
+                                            时时统计
+                                        </a>
+</li>
+<li>
+<a onclick="$('#myModal4 ul ul a').removeClass('active');$(this).addClass('active');$('#report_time').val(1);$('#statistics_navigate_type').val(4);statistics.report();" href="javascript:void(0)">
+                                            日报统计
+                                        </a>
+</li>
+<li>
+<a onclick="$('#myModal4 ul ul a').removeClass('active');$(this).addClass('active');$('#report_time').val(2);$('#statistics_navigate_type').val(4);statistics.report();" href="javascript:void(0)">
+                                            月报统计
+                                        </a>
+</li>
+<li>
+<a onclick="$('#myModal4 ul ul a').removeClass('active');$(this).addClass('active');$('#report_time').val(3);$('#statistics_navigate_type').val(4);statistics.report();" href="javascript:void(0)">
+                                            年报统计
+                                        </a>
+</li>
+</ul>
+</li>
+<li>
+<a onclick="$(this).next().slideToggle()" style="border: 1px solid #EFF0F0" href="javascript:void(0)">迁移统计
+                                </a>
+<ul class="hidden">
+<li>
+<a onclick="$('#myModal4 ul ul a').removeClass('active');$(this).addClass('active');$('#report_time').val(0);$('#statistics_navigate_type').val(3);statistics.report();" href="javascript:void(0)">
+                                            时时统计
+                                        </a>
+</li>
+<li>
+<a onclick="$('#myModal4 ul ul a').removeClass('active');$(this).addClass('active');$('#report_time').val(1);$('#statistics_navigate_type').val(3);statistics.report();" href="javascript:void(0)">
+                                            日报统计
+                                        </a>
+</li>
+<li>
+<a onclick="$('#myModal4 ul ul a').removeClass('active');$(this).addClass('active');$('#report_time').val(2);$('#statistics_navigate_type').val(3);statistics.report();" href="javascript:void(0)">
+                                            月报统计
+                                        </a>
+</li>
+<li>
+<a onclick="$('#myModal4 ul ul a').removeClass('active');$(this).addClass('active');$('#report_time').val(3);$('#statistics_navigate_type').val(3);statistics.report();" href="javascript:void(0)">
+                                            年报统计
+                                        </a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="configure-fr fl">
+<div class="design-tit">
+<a title="查看操作指南" data-step="8" class="to_guide" target="_blank" href="guide.html?account=admin&amp;template=https://192.168.0.56:32785/infoinge/s&amp;content=statistics"></a>
+</div>
+<div class="top clearfix">
+<div style="width:60%;" class="top1 fl">
+<div style="width: 100%;height: 580px" id="monitoring_network_main"></div>
+</div>
+<div style="width:38%" class="top1 fr">
+<div style="width: 500px;height: 300px" id="statistics_buddle_name"></div>
+<div style="width: 500px;height: 300px" id="statistics_catalog_name"></div>
+</div>
+</div>
+</div>
+<a class="close-reveal-modal">&times;</a>
+</div>
+<div id="myModa3" style="z-index: 500" class="configure clearfix reveal-modal">
+<div style="width: 300px" class="configure-fl fl">
+<div id="resource_navigation" class="configure-fl-about"></div>
+</div>
+<div id="resource_db_setting_main" style="width: 50%;height:100%" class="configure-fr fl"></div>
+<div style="width: 20%" class="configure-fr fl">
+<div id="resource_db_setting_right" style="display: none;top: 23px" class="configure-fr-side configure-fr-two"></div>
+</div>
+<a onclick="hideDbEdit()" class="close-reveal-modal2">&times;</a>
+</div>
+<div id="myModal7" style="z-index: 500" class="configure clearfix reveal-modal">
+<div id="resource_connection_location" style="height:100%"></div>
+<a onclick="hideMapEdit()" class="close-reveal-modal2">&times;</a>
+</div>
+<div id="myModal" class="configure clearfix reveal-modal">
+<div class="configure-fl fl">
+<div class="configure-fl-about">
+<div class="configure-fl-about-tit">
+                            监控日志
+                        </div>
+<ul class="configure-nav1">
+<li>
+<a onclick="$('#journal_navigate_type').val(-1);$('#myModal .configure-nav1>li a').removeClass('active');$(this).addClass('active');$('#journal_page_number').val(0);$('#journal_record_number').val(15);onJournalSearch();" class="active" id="first_journal_search" href="javascript:void(0)">
+                                    异常日志
+                                </a>
+</li>
+<li>
+<a onclick="$('#journal_navigate_type').val(1); $('#myModal .configure-nav1>li a').removeClass('active');$(this).addClass('active');$('#journal_page_number').val(0);$('#journal_record_number').val(15);onJournalSearch();" href="javascript:void(0)">
+                                    操作日志
+                                </a>
+</li>
+<li>
+<a onclick="$('#journal_navigate_type').val(3);$('#myModal .configure-nav1>li a').removeClass('active');$(this).addClass('active');$('#journal_page_number').val(0);$('#journal_record_number').val(15);onJournalSearch();" href="javascript:void(0)">
+                                    迁移日志
+                                </a>
+</li>
+<li>
+<a onclick="$('#journal_navigate_type').val(4);$('#myModal .configure-nav1>li a').removeClass('active');$(this).addClass('active');$('#journal_page_number').val(0);$('#journal_record_number').val(15);onJournalSearch();" href="javascript:void(0)">
+                                    同步日志
+                                </a>
+</li>
+<li>
+<a onclick="$('#journal_navigate_type').val(2);$('#myModal .configure-nav1>li a').removeClass('active');$(this).addClass('active');$('#journal_page_number').val(0);$('#journal_record_number').val(15);onJournalSearch();" href="javascript:void(0)">
+                                    定时任务
+                                </a>
+</li>
+<li>
+<a onclick="$('#journal_navigate_type').val(0);$('#myModal .configure-nav1>li a').removeClass('active');$(this).addClass('active');$('#journal_page_number').val(0);$('#journal_record_number').val(15);onJournalSearch();" href="javascript:void(0)">
+                                    登录日志
+                                </a>
+</li>
+</ul>
+</div>
+</div>
+<a title="查看操作指南" class="to_guide" target="_blank" href="guide.html?account=admin&amp;template=https://192.168.0.56:32785/infoinge/s&amp;content=journal"></a>
+<div class="configure-fr fl">
+<div class="">
+<input onclick="onJournalDate()" class="laydate-icon validate[required] future[now]" id="journal_date" type="text" style="display: inline-block;width: 200px;height: 32px;padding: 0 23px;border-radius: 6px;border: 1px solid #b7b7b7;"><input value="-1" id="journal_navigate_type" type="hidden">
+</div>
+<div style="height:97%; overflow:scroll; overflow-x:hidden; position:relative" id="monitoring_log_main"></div>
+</div>
+<a class="close-reveal-modal">&times;</a>
+</div>
+<div id="myModal6" class="configure clearfix reveal-modal">
+<div class="configure-fl fl">
+<div class="configure-fl-about">
+<div class="configure-fl-about-tit">
+                            作业监控
+                        </div>
+<ul class="configure-nav1">
+<li>
+<a onclick="$('#myModal6 .configure-nav1>li a').removeClass('active');$(this).addClass('active'); $('#monitoring_job_type').val('execution');onInfoingeJobMonitor();" id="first_monitor" href="javascript:void(0)">
+                                    正在进行
+                                </a>
+</li>
+<li>
+<a onclick=" $('#myModal6 .configure-nav1>li a').removeClass('active');$(this).addClass('active');$('#monitoring_job_type').val('soon');onInfoingeJobMonitor();" href="javascript:void(0)">
+                                    即将开始
+                                </a>
+</li>
+<li>
+<a onclick="$('#myModal6 .configure-nav1>li a').removeClass('active');$(this).addClass('active');$('#monitoring_job_type').val('dormancy'); onInfoingeJobMonitor();" href="javascript:void(0)">
+                                    休眠作业
+                                </a>
+</li>
+<li>
+<a onclick="$('#myModal6 .configure-nav1>li a').removeClass('active');$(this).addClass('active'); $('#monitoring_job_type').val('end');onInfoingeJobMonitor();" href="javascript:void(0)">
+                                    已经结束
+                                </a>
+</li>
+</ul>
+<input value="execution" id="monitoring_job_type" type="hidden">
+</div>
+</div>
+<a title="查看操作指南" class="to_guide" target="_blank" href="guide.html?account=admin&amp;template=https://192.168.0.56:32785/infoinge/s&amp;content=jobMonitoring"></a>
+<div style="height: 96%;margin-top: 3.5%" class="configure-fr fl">
+<div style="height:100%; overflow:scroll; overflow-x:hidden" id="monitoring_job_main"></div>
+</div>
+<a class="close-reveal-modal">&times;</a>
+</div>
+<div id="myModal1" class="configure-fr configure-fr2 service reveal-modal clearfix">
+<div style="height:100%">
+<div class="service-tit2">
+<ul>
+<li>
+<a title="业务模型" class="service8" href="javascript:void(0);"></a><span id="service_nav">业务模型</span><input value="" id="resource_type" type="hidden"><input value="" id="resource_hinge_type" type="hidden">
+</li>
+<li>
+<a title="新增业务模型" class="service1" id="service_nav_add" href="javascript:void(0);"></a>
+</li>
+<li style="display:none">
+<a title="批量删除" class="service2" id="removeSelectRecordBusiness" href="javascript:void(0);"></a>
+</li>
+</ul>
+</div>
+<div class="service-tit">
+<ul style="display:inline-block;">
+<li class="tit-active">
+<div title="业务模型没有访问权限" class="prohibit_grey" style="display:none"></div>
+<a title="业务模型" class="service8" href="javascript:void(0);"></a>
+</li>
+<li>
+<div title="数据库没有访问权限" class="prohibit_grey" style="display:none"></div>
+<a title="数据库" class="service3" href="javascript:void(0);"></a>
+</li>
+<li>
+<div title="集成节点没有访问权限" class="prohibit_grey" style="display:none"></div>
+<a title="集成节点" class="service4" href="javascript:void(0);"></a>
+</li>
+<li>
+<div title="总线节点没有访问权限" class="prohibit_grey" style="display:none"></div>
+<a title="总线节点" class="service6" href="javascript:void(0);"></a>
+</li>
+<li>
+<div title="作业管理没有访问权限" class="prohibit_grey" style="display:none"></div>
+<a title="作业管理" class="service10" href="javascript:void(0);"></a>
+</li>
+<li>
+<div title="异常响应没有访问权限" class="prohibit_grey" style="display:none"></div>
+<a onclick="onExceptionResponseSearch('')" title="异常响应" class="service14" href="javascript:void(0);"></a>
+</li>
+<li>
+<div title="应用上传没有访问权限" class="prohibit_grey" style="display:none"></div>
+<a title="应用上传" class="service12" href="javascript:void(0);"></a>
+</li>
+</ul>
+<div style="display:none" class="upload">
+                                    选择文件
+                                    <input style="opacity: 0; cursor: pointer;position:absolute;top:0;left:0;" name="buddle_file" id="buddle_file_input" type="file" onchange="uploadBuddleFile('base', 'zh-cn', 'buddle_file_input',
+                                            '应用文件','exchange')
+                                        ">
+</div>
+<select onchange="onCatalogSearch()" style="display:none" id="resource_connection_navigate"><option value="">请选择资源连接</option></select>
+</div>
+<a id="toGuideBusiness" title="查看操作指南" class="to_guide" data-hintPosition="middle-middle" data-hint="点击查看业务模型的操作指南" target="_blank" href="guide.html?account=admin&amp;template=https://192.168.0.56:32785/infoinge/s&amp;content="></a>
+<div style="position:absolute;width:98%; height:84%; overflow:auto" id="resource_setting_main"></div>
+</div>
+<div id="resource_setting_right" style="z-index:999" class="configure-fr-side configure-fr-one hidden"></div>
+<a onclick="hideMapEdit()" class="close-reveal-modal">&times;</a>
+</div>
+<div id="myModal2" class="configure clearfix reveal-modal ">
+<div class="configure-fl fl">
+<div class="configure-fl-about">
+<div class="configure-fl-about-tit">
+                            基本设置
+                        </div>
+<ul class="configure-nav1" id="diginter_basic_setup" style="border-bottom: 2px solid #EEEEEE">
+<li class="nav1-lis" id="diginter_drive_processing">
+<a href="javascript:void(0);">驱动处理</a>
+</li>
+<li class="nav1-lis" id="diginter_system_word_list">
+<a href="javascript:void(0);">系统词表</a>
+</li>
+<li class="nav1-lis" id="diginter_interface_style">
+<a href="javascript:void(0);">界面风格</a>
+</li>
+<li class="nav1-lis" id="diginter_language_support">
+<a href="javascript:void(0);">语言支持</a>
+</li>
+<li class="nav1-lis" id="diginter_cleaning_rules">
+<a href="javascript:void(0);">清洗规则</a>
+</li>
+<li class="nav1-lis" id="diginter_validation_rules">
+<a href="javascript:void(0);">验证规则</a>
+</li>
+</ul>
+</div>
+</div>
+<div style="margin-top: -1%" class="configure-fr fl">
+<div style="height:100%">
+<div class="basics-tit2">
+<ul>
+<li style="display:none">
+<a title="驱动处理" class="basics1" id="basics_nav" href="javascript:void(0);"></a>
+</li>
+<li>
+<a title="新增驱动处理" class="basics10" id="basics_nav_add" href="javascript:void(0);"></a>
+</li>
+<li>
+<a title="批量删除" id="removeSelectRecordBasic" class="basics9" href="javascript:void(0);"></a>
+</li>
+</ul>
+</div>
+<div class="basics-tit">
+<ul>
+<li>
+<div title="驱动处理没有访问权限" class="prohibit_grey" style="display:none"></div>
+<a title="驱动处理" class="basics1 basics1_active" href="javascript:void(0);"></a>
+</li>
+<li>
+<div title="系统词表没有访问权限" class="prohibit_grey" style="display:none"></div>
+<a title="系统词表" class="basics2" href="javascript:void(0);"></a>
+</li>
+<li>
+<div title="界面风格没有访问权限" class="prohibit_grey" style="display:none"></div>
+<a title="界面风格" class="basics5" href="javascript:void(0);"></a>
+</li>
+<li>
+<div title="语言支持没有访问权限" class="prohibit_grey" style="display:none"></div>
+<a title="语言支持" class="basics6" href="javascript:void(0);"></a>
+</li>
+<li>
+<div title="清洗规则没有访问权限" class="prohibit_grey" style="display:none"></div>
+<a title="清洗规则" class="basics7" href="javascript:void(0);"></a>
+</li>
+<li>
+<div title="验证规则没有访问权限" class="prohibit_grey" style="display:none"></div>
+<a title="验证规则" class="basics8" href="javascript:void(0);"></a>
+</li>
+</ul>
+</div>
+<div style="height:94%; overflow:scroll; overflow-x:hidden" id="basics_setting_main"></div>
+</div>
+<div style="display: none;" id="basics_setting" class="configure-fr-side configure-fr-two hidden"></div>
+<a class="close-reveal-modal">&times;</a>
+</div>
+<a id="toGuide" title="查看操作指南" class="to_guide" target="_blank" href="guide.html?account=admin&amp;template=https://192.168.0.56:32785/infoinge/s&amp;content="></a>
+</div>
+<div id="myModal3" class="configure clearfix reveal-modal ">
+<div class="configure-fl fl">
+<div class="configure-fl-about">
+<div class="configure-fl-about-tit">
+                            帐号管理
+                        </div>
+<ul class="configure-nav1">
+<li class="nav1-lis" onclick="onAccountManage('');" style="border: 2px solid #EFF0F0">
+<a href="javascript:void(0);">帐号信息</a>
+</li>
+</ul>
+<ul class="configure-nav1" style="display: none" id="account_setting_list"></ul>
+</div>
+<div class="configure-fl-link">
+<a class="add" href="javascript:void(0);" id="account_nav_add_new">+ 创建帐号</a>
+</div>
+</div>
+<div class="configure-fr fl">
+<div style="height:100%">
+<div class="basics-tit2" style="margin-top: -27px">
+<ul>
+<li>
+<a title="新增帐号" class="basics10" id="account_nav_add" href="javascript:void(0);"></a>
+</li>
+<li>
+<a title="批量删除" class="basics9" id="removeSelectRecordAccount" href="javascript:void(0);"></a>
+</li>
+</ul>
+<a id="toGuideAccount" title="查看操作指南" class="to_guide" target="_blank" href="guide.html?account=admin&amp;template=https://192.168.0.56:32785/infoinge/s&amp;content="></a>
+</div>
+<div class="configure1-fr-tit" id="jurisdiction_setting_main"></div>
+<div style="width:98%;height:94%; overflow:scroll; overflow-x:hidden" id="account_setting_main"></div>
+</div>
+<div style="display: none;" id="account_setting" class="configure-fr-side configure-fr-two hidden"></div>
+<a class="close-reveal-modal">&times;</a>
+</div>
+</div>
+<div style="display:none;" id="api_login"></div>
+<div style="display: none">
+<select onclick="onConsoleHingeChange()" id="console_hinge_select"></select><input type="hidden" id="console_hinge_host">
+</div>
+<div style="display:none;height:300px;width:500px;margin-left:-255px;margin-top:-195px;" id="show_contact" class="retrieve-con"></div>
+<div style="display:none" id="hint_information" class="retrieve-con">
+<div class="retrieve-con-tit">
+<p onclick="$('#hint_information').hide()" style="float:right;cursor:pointer">&times;</p>
+</div>
+</div>
+</div><input value="" id="instance_type" type="hidden"><input value="" id="link_data_array" type="hidden"><div id="now_remove" style="display:none;position:fixed;top:0;bottom:0;left:0;right:0;z-index:166"></div><div id="ajax_loader_remove" style="display:none;position:fixed;top:45%;left:45%;z-index:188">
+<img src="img/iconloading.gif"></div>
+</response.result><elapsed.configuration name='处理耗时'>6793</elapsed.configuration>

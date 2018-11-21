@@ -1,4 +1,4 @@
-# dockerfile_tomcat9jre10
+# dockerfile
 
 #### 项目介绍
 dockerfile  构建 tomcat9 & jre10
@@ -6,19 +6,19 @@ dockerfile  构建 tomcat9 & jre10
 
 
 #### 软件架构
-Docker version 18.03.1-ce
+Docker version 18.06.1-ce
 
 
 #### 安装教程
 
-1. docker build -t tomcat9jre10 .
+1. docker build -t tomcat9 .
 2. docker images
 
 
 #### 使用说明
 
-1. docker run -d -p 8080:8080 -v $(pwd)/testwebapps/:/opt/apache-tomcat-9.0.8/webapps/ --privileged=true --name <容器名> tomcat9jre10
-2. http://localhost:8080/manager/status
+1. docker run -d -p 8090:8090 -v $(pwd)/infoinge/:/opt/apache-tomcat-9.0.13/webapps/infoinge --privileged=true --name <容器名> tomcat9
+2. https://localhost:8090/infoinge
 3. user/pwd : tomcat/tomcat
 
 #### 参与贡献

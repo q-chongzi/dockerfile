@@ -13,9 +13,10 @@ ADD context.xml /opt/apache-tomcat-9.0.13/webapps/manager/META-INF/
 ADD web.xml /opt/apache-tomcat-9.0.13/webapps/manager/WEB-INF/
 ENV JRE_HOME /opt/jre-10.0.1
 ENV CATALINA_HOME /opt/apache-tomcat-9.0.13
-RUN mkdir -p /etc/supervicor
+RUN mkdir -p /etc/supervicor && mkdir -p /opt/apache-tomcat-9.0.13/conf/auth
 COPY supervisord.conf /etc/supervisor/
-
-EXPOSE 22 8080 9001
-
+COPY tomcat.keystore /opt/apache-tomcat-9.0.13/conf/auth/
+COPY server.xml /opt/apache-tomcat-9.0.13/conf/
+ENV JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=GBK"
+EXPOSE 22 8080 9001 8090
 ENTRYPOINT supervisord -c /etc/supervisor/supervisord.conf 

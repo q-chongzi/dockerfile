@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><infoinge.v_resource_relevance id="infoinge.V_RESOURCE_RELEVANCE">
+	<resource>
+		<identifier>infoinge</identifier>
+		<name>V_RESOURCE_RELEVANCE</name>
+		<style>NATANT</style>
+		<child>IS_ACTIVE,S_IDENTIFIER,S_RESOURCE_NAME,R_IDENTIFIER,R_RESOURCE_NAME</child>
+		<type>12,12,12,12,12</type>
+		<unique>1,2,3,4</unique>
+		<sort>1,2,3,4</sort>
+		<remark>是否使用,S_IDENTIFIER,S_RESOURCE_NAME,R_IDENTIFIER,R_RESOURCE_NAME</remark>
+		<encoding>33,33,33,33,33</encoding>
+	</resource>
+	<title>
+		<field>
+			<tag><![CDATA[is_active]]></tag>
+			<name><![CDATA[是否使用]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[s_identifier]]></tag>
+			<name><![CDATA[S_IDENTIFIER]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[s_resource_name]]></tag>
+			<name><![CDATA[S_RESOURCE_NAME]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[r_identifier]]></tag>
+			<name><![CDATA[R_IDENTIFIER]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[r_resource_name]]></tag>
+			<name><![CDATA[R_RESOURCE_NAME]]></name>
+		</field>
+	</title>
+<record.crest><S_IDENTIFIER><![CDATA[gztax.test]]></S_IDENTIFIER><S_RESOURCE_NAME><![CDATA[ZS_JKS]]></S_RESOURCE_NAME><R_IDENTIFIER><![CDATA[gztax.test]]></R_IDENTIFIER><R_RESOURCE_NAME><![CDATA[DJ_NSRXX]]></R_RESOURCE_NAME></record.crest><record.crest><S_IDENTIFIER><![CDATA[gztax.test]]></S_IDENTIFIER><S_RESOURCE_NAME><![CDATA[ZS_JKS]]></S_RESOURCE_NAME><R_IDENTIFIER><![CDATA[gztax.test]]></R_IDENTIFIER><R_RESOURCE_NAME><![CDATA[DM_GY_SWJG]]></R_RESOURCE_NAME></record.crest><record.crest><S_IDENTIFIER><![CDATA[gztax.test]]></S_IDENTIFIER><S_RESOURCE_NAME><![CDATA[ZS_JKS]]></S_RESOURCE_NAME><R_IDENTIFIER><![CDATA[gztax.test]]></R_IDENTIFIER><R_RESOURCE_NAME><![CDATA[DM_ZS_SKZL]]></R_RESOURCE_NAME></record.crest><record.crest><S_IDENTIFIER><![CDATA[gztax.test]]></S_IDENTIFIER><S_RESOURCE_NAME><![CDATA[ZS_JKS]]></S_RESOURCE_NAME><R_IDENTIFIER><![CDATA[gztax.test]]></R_IDENTIFIER><R_RESOURCE_NAME><![CDATA[DM_GY_ZSXM]]></R_RESOURCE_NAME></record.crest><record.crest><S_IDENTIFIER><![CDATA[gztax]]></S_IDENTIFIER><S_RESOURCE_NAME><![CDATA[ZS_JKS]]></S_RESOURCE_NAME><R_IDENTIFIER><![CDATA[gztax]]></R_IDENTIFIER><R_RESOURCE_NAME><![CDATA[DJ_NSRXX]]></R_RESOURCE_NAME></record.crest><record.crest><S_IDENTIFIER><![CDATA[gztax]]></S_IDENTIFIER><S_RESOURCE_NAME><![CDATA[ZS_JKS]]></S_RESOURCE_NAME><R_IDENTIFIER><![CDATA[gztax]]></R_IDENTIFIER><R_RESOURCE_NAME><![CDATA[DM_GY_SWJG]]></R_RESOURCE_NAME></record.crest><record.crest><S_IDENTIFIER><![CDATA[gztax]]></S_IDENTIFIER><S_RESOURCE_NAME><![CDATA[ZS_JKS]]></S_RESOURCE_NAME><R_IDENTIFIER><![CDATA[gztax]]></R_IDENTIFIER><R_RESOURCE_NAME><![CDATA[DM_ZS_SKZL]]></R_RESOURCE_NAME></record.crest><record.crest><S_IDENTIFIER><![CDATA[gztax]]></S_IDENTIFIER><S_RESOURCE_NAME><![CDATA[ZS_JKS]]></S_RESOURCE_NAME><R_IDENTIFIER><![CDATA[gztax]]></R_IDENTIFIER><R_RESOURCE_NAME><![CDATA[DM_GY_ZSXM]]></R_RESOURCE_NAME></record.crest><record.crest><S_IDENTIFIER><![CDATA[gztax]]></S_IDENTIFIER><S_RESOURCE_NAME><![CDATA[ZS_JKS]]></S_RESOURCE_NAME><R_IDENTIFIER><![CDATA[gztax.test]]></R_IDENTIFIER><R_RESOURCE_NAME><![CDATA[ZS_JKS]]></R_RESOURCE_NAME></record.crest><record.crest><S_IDENTIFIER><![CDATA[gztax]]></S_IDENTIFIER><S_RESOURCE_NAME><![CDATA[ZS_JKS]]></S_RESOURCE_NAME><R_IDENTIFIER><![CDATA[gztax.test]]></R_IDENTIFIER><R_RESOURCE_NAME><![CDATA[SB_CXS_FYXXCJB]]></R_RESOURCE_NAME></record.crest></infoinge.v_resource_relevance>

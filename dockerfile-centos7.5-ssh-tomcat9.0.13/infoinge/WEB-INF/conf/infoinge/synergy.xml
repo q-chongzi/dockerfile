@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infoinge.synergy id="infoinge.SYNERGY">
+	<resource>
+		<identifier>infoinge</identifier>
+		<name>SYNERGY</name>
+		<style>NATANT</style>
+		<child>CODE,ADDRESS,REFRESH_TIME,CONNECTION_CODE</child>
+		<type>12,12,93,12</type>
+		<unique>0</unique>
+		<sort>0</sort>
+		<remark>风格编码,ADDRESS,REFRESH_TIME,CONNECTION_CODE</remark>
+		<encoding>33,33,33,33</encoding>
+	</resource>
+	<title>
+		<field>
+			<tag><![CDATA[code]]></tag>
+			<name><![CDATA[风格编码]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[address]]></tag>
+			<name><![CDATA[ADDRESS]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[refresh_time]]></tag>
+			<name><![CDATA[REFRESH_TIME]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[connection_code]]></tag>
+			<name><![CDATA[CONNECTION_CODE]]></name>
+		</field>
+	</title>
+</infoinge.synergy>

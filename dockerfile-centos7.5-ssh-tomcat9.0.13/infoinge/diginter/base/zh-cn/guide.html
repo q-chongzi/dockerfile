@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="icon" href="img/xunshu.png" type="image/x-icon"/>
+    <title> - 讯枢 - 数字立交 - </title>
+    <meta name="author" content="青云之上" />
+    <meta name="keywords" content="数据 融合 交换 同步 迁移 清洗 开发 框架 软件 工厂"/>
+    <meta name="description" content="数据标准化是唯一的解决方法，除此之外，都会让解决方法变得不经济"/>
+
+    <link rel="stylesheet" type="text/css" href="css/global.css"/>
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.4.custom.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css"/>
+    <link rel="stylesheet" type="text/css" href="css/validationEngine.jquery.css"/>
+
+    <script src="js/leaflet.js" type="text/javascript"></script>
+    <script src="js/proj4-compressed.js" type="text/javascript"></script>
+    <script src="js/proj4leaflet.js" type="text/javascript"></script>
+    <script src="js/go.js" type="text/javascript"></script>
+    <script type="text/javascript"
+            src="http://api.map.baidu.com/api?v=2.0&ak=cZGg27q3Yqu3Vl8qLoP4xYzy16nG23C4"></script>
+</head>
+<body>
+<div class="clearfix details">
+    <div class="details-tit clearfix">
+        <div class="details-tit-fl fl">
+            <span class="name"> </span>
+            <span class="oper1">操作指南</span>
+        </div>
+        <div class="details-tit-fr fr hidden">
+            <select name="">
+                <option value="">English</option>
+                <option value="">Chinese</option>
+            </select>
+        </div>
+    </div>
+    <div class="details-con clearfix" style="padding: 0 20px 0 195px;">
+        <div class="configure-fl fl configure-fl-2 api_fl" style="width:14%">
+            <div class="configure-fl-about">
+                <div class="configure-fl-about-tit api_title">
+                    指南大纲
+                </div>
+                <ul class="configure-nav1" id="item">
+                    <li class="nav1-lis" style="border-bottom:1px solid #eee;">
+                        <a style="display:block; text-overflow: ellipsis; white-space: nowrap; padding-right:18px;"
+                           id="api">
+                            接口手册
+                        </a>
+                    </li>
+                    <li class="nav1-lis">
+                        <a style="display:block; text-overflow: ellipsis; white-space: nowrap; padding-right:18px;"
+                           id="business" onclick="onItemChange('business')">
+                            业务模型
+                        </a>
+                    </li>
+                    <li class="nav1-lis">
+                        <a style="display:block; text-overflow: ellipsis; white-space: nowrap; padding-right:18px;"
+                           id="setting" onclick="onItemChange('setting')">
+                            基本设置
+                        </a>
+                    </li>
+                    <li class="nav1-lis">
+                        <a style="display:block; text-overflow: ellipsis; white-space: nowrap; padding-right:18px;"
+                           id="account" onclick="onItemChange('account')">
+                            账号管理
+                        </a>
+                    </li>
+                    <li class="nav1-lis">
+                        <a style="display:block; text-overflow: ellipsis; white-space: nowrap; padding-right:18px;"
+                           id="auxiliary" onclick="onItemChange('auxiliary')">
+                            辅助功能
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="configure-fl-link">
+                <div class="configure-fl-link-tit"
+                     style="font-size:16px; overflow:hidden; text-overflow: ellipsis; white-space: nowrap; padding-right:15px;">
+                    指南目录
+                </div>
+                <ul class="configure-fl-catalog" id="settingBar">
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="驱动处理" onclick="processor.loadInfo()">驱动处理</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="系统词表" onclick="vocabulary.loadInfo()">系统词表</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="界面风格" onclick="styles.loadInfo()">界面风格</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="语言支持" onclick="language.loadInfo()">语言支持</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="清洗规则" onclick="cleanout.loadInfo()">清洗规则</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="验证规则" onclick="verify.loadInfo()">验证规则</a>
+                    </li>
+                </ul>
+                <ul class="configure-fl-catalog hidden" id="businessBar">
+                    <li class="buS">
+                        <a class="catalog_toggle" href="javascript:void(0)" title="业务模型" onclick="business.loadInfo()">业务模型</a>
+                    </li>
+                    <ul class="b_item">
+                        <li><a class="business" href="javascript:void(0)" title="业务模型共有属性" onclick="business.loadInfo()">业务模型共有属性</a></li>
+                        <li><a class="serve" href="javascript:void(0)" title="服务功能配置" onclick="serve.loadInfo()">服务功能配置</a></li>
+                        <li><a class="migrate" href="javascript:void(0)" title="功能设计配置" onclick="migrate.loadInfo()">功能设计配置</a></li>
+                        <li><a class="sync" href="javascript:void(0)" title="迁移/同步基础配置" onclick="sync.loadInfo()">mysql迁移/同步基础配置</a></li>
+                        <li><a class="response" href="javascript:void(0)" title="响应设计配置" onclick="response.loadInfo()">响应设计配置</a></li>
+                    </ul>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="数据库" onclick="database.loadInfo()">数据库</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="集成节点" onclick="integration.loadInfo()">集成节点</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="集群节点" onclick="colony.loadInfo()">集群节点</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="总线节点" onclick="dsb.loadInfo()">总线节点</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="作业管理" onclick="jobs.loadInfo()">作业管理</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="异常响应" onclick="exception.loadInfo()">异常响应</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="应用上传" onclick="upload.loadInfo()">应用上传</a>
+                    </li>
+                </ul>
+                <ul class="configure-fl-catalog hidden" id="accountBar">
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="账号设置" onclick="accounts.loadInfo()">账号设置</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="权限设置" onclick="permission.loadInfo()">权限设置</a>
+                    </li>
+                </ul>
+                <ul class="configure-fl-catalog hidden" id="auxiliaryBar">
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="作业监控" onclick="jobMonitoring.loadInfo()">作业监控</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="统计类型" onclick="statistics.loadInfo()">统计类型</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="监控日志" onclick="journal.loadInfo()">监控日志</a>
+                    </li>
+                    <li>
+                        <a class="catalog_toggle" href="javascript:void(0)" title="首页弹窗" onclick="alert.loadInfo()">首页弹窗</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="configure-fl2 fr api_fr" id="content" style="width:95%">
+
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/lc_switch.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.reveal.js"></script>
+<script type="text/javascript" src="../../../infoinge/base/zh-cn/js/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="js/birthday.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
+<!--<script src="js/network_view.js" type="text/javascript"></script>-->
+<script src="js/diginter_signin.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="js/jquery.validationEngine-zh_CN.js"></script>
+<script type="text/javascript" src="../../../infoinge/base/zh-cn/js/ajaxfileupload.js"></script>
+<script type="text/javascript" src="../../../infoinge/base/zh-cn/js/hinge.js"></script>
+<script type="text/javascript" src="../../../infoinge/base/zh-cn/js/infoinge-luban.js"></script>
+<script type="text/javascript" src="../../../infoinge/base/zh-cn/js/laydate/laydate.js"></script>
+<script type="text/javascript" src="js/navigate.js"></script>
+
+<script src="js/diginter_configuration.js" type="text/javascript"></script>
+
+<script src="js/socket.js" type="text/javascript"></script>
+<script src="js/diginter_business.js" type="text/javascript"></script>
+<script type="text/javascript" src=js/echarts.js></script>
+<script type="text/javascript" src=js/statistics.js></script>
+<script type="text/javascript" src=js/diginter_job.js></script>
+
+<script src="js/diginter_monitor.js" type="text/javascript"></script>
+<script src="js/guide.js" type="text/javascript"></script>
+</body>
+</html>

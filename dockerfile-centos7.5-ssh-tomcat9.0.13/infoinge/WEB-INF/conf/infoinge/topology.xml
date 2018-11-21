@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infoinge.topology id="infoinge.TOPOLOGY">
+	<resource>
+		<identifier>infoinge</identifier>
+		<name>TOPOLOGY</name>
+		<style>NATANT</style>
+		<child>CODE,CONNECTION_ID,CONNECTION_NAME,POSITION,CONNECTION_CODE</child>
+		<type>12,12,12,12,12</type>
+		<unique>0</unique>
+		<sort>0</sort>
+		<remark>引用编码,连接标识,连接名字,1.HINGE：枢纽处理类，2.DB：数据库驱动，3.WS：WEB服务接口,CONNECTION_CODE</remark>
+		<encoding>33,33,33,33,33</encoding>
+	</resource>
+	<title>
+		<field>
+			<tag><![CDATA[code]]></tag>
+			<name><![CDATA[引用编码]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[connection_id]]></tag>
+			<name><![CDATA[连接标识]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[connection_name]]></tag>
+			<name><![CDATA[连接名字]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[position]]></tag>
+			<name><![CDATA[1.Hinge：枢纽处理类，2.DB：数据库驱动，3.WS：WEB服务接口]]></name>
+		</field>
+		<field>
+			<tag><![CDATA[connection_code]]></tag>
+			<name><![CDATA[CONNECTION_CODE]]></name>
+		</field>
+	</title>
+</infoinge.topology>

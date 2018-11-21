@@ -1,0 +1,147 @@
+
+
+body { font-family: 微软雅黑,"Open Sans", sans-serif;width:100%; height:100%; font-size:15px; width:100%; height:100%;  ; }
+input,
+select,
+textarea { font-family: 微软雅黑,"Open Sans", sans-serif;font-size:1em; }
+.wrap { width: 100%; margin: 0 auto; position: relative; }
+
+img,a{ border:0;}
+ul,li{ list-style:none;}
+*{ margin:0; padding:0;}
+.flt{ float:left;}
+.frt{ float:right;}
+.clear{ clear:both;}
+a{text-decoration:none}
+
+
+
+body{
+        font-size:12px;
+}
+
+
+
+
+/*----------header----------*/
+.mainer{ overflow:hidden;}
+.mainer .wrap{margin:0 -0.25%; width:auto;}
+.left_side1{ width:100%;background:#ffffff; }
+.main1{ width:64%;}
+.right_side1{ width:20%;  }
+.ul_nav {background:#f2f2f2;width: 100%}
+.left_side2{ width:14.5%;background:#ffffff; }
+.main2{ width:64%;  }
+.right_side2{ width:20%;  }
+.row{ margin:0 0.25%;}
+.ht4{width:100%;}
+.row  .item{overflow-y:auto;  }
+.left_side1 .item,.left_side2 .item{background:#ffffff}
+
+.title{padding:5px; color:#fff;background-color: #137abc}
+.title span{ display:inline-block; line-height:2em; padding-left:3em; background:url(../img/icon26.png) no-repeat left center; background-size:auto 1.5em;}
+
+.nav_list li{text-align:center;line-height:2em; margin-bottom:1.5em; width:50%; float:left; }
+.nav_list li a{ color:#4A6782;}
+
+
+.main_tit{ padding:3px 0; padding-left:5px;}
+.tit_list li{ float:left; margin-left:1em;}
+.tit_list li a{ display:block;width:2.5em; height:2.5em; cursor:pointer;color: #4A6782 }
+.tit_list li a:hover{color: #ff633b }
+
+
+
+/*----------mainer----------*/
+.mainer { }
+
+.div_txt{ padding:0 1.3em;font-size:0.8em;}
+.div_txt .list{ line-height:2em; padding:0.5em 0;}
+.div_txt  .list .text{color:#666; overflow:hidden;}
+.div_txt .span_tit{display:block; float:left; width:5.5em; height:1em; color:#aaa; }
+
+.div_list{padding:0 1em;}
+.div_list a{color:#fff;}
+
+.div_list li{ line-height:2em; font-size:0.9em}
+.left_txt li a{margin: 5px;}
+.left_txt li a:hover{color: #ff633b;}
+
+.right_side2 .title{ color:#666;}
+.right_side2 .div_list a{ color:#666;}
+.main2 .div_txt{ padding-top:0.5em;}
+.main2 .div_txt .list{ margin-bottom:0em;}
+.main2 .div_txt .item1{float:left; margin-right:2em}
+.main2 .div_select{width:190px; float:left;}
+.main2 .div_txt .span_tit{ width:auto;}
+.main2 .div_txt .div_input{width:90%; float:left; line-height:3em;}
+.main2 .div_txt .div_btn{ width:10%; float:left;}
+.main2 .div_txt .div_btn a{ width:98%;}
+.main2 .div_txt .div_nav{ width:10%; float:left;}
+.main2 .div_txt .div_nav a{ width:98%;}
+
+
+
+.div_nav{margin-top:1em;}
+.div_nav .tit span{ display:block; padding-left:1em; border-left:2px solid #ff8331}
+.div_nav ul li ul{ display:none;}
+.div_nav ul li{ line-height:2em;}
+.div_nav ul li span{ display:inline-block;padding-left:1em;}
+.div_nav ul li a{padding-left: 1em; display:block; color:#4A6782;background:#ffffff; }
+
+
+.div_nav ul li span{  background-size:auto 1em;}
+.div_nav .div_nav2 ul li span{ background-size:auto 1em;}
+
+.div_nav a:hover{color: #ff633b}
+
+.main_tab table{ width:100%; line-height:2em; text-align:center; color:#666; table-layout:fixed;word-break:break-all;}
+.main_tab table th{ color:#666; font-weight:normal;}
+.main_tab table th,.main_tab table td{ border-bottom:1px solid #eee; vertical-align:middle;}
+.main_tab table tr:nth-child(odd){background:#dadee8;}
+.main_tab table th.th1{ width:4em;}
+.main_tab table th.th7{ width:25%;}
+.main_tab table td{ height:2em;overflow: hidden;text-overflow:ellipsis;}
+.main_tab table td:hover{word-break:break-all;}
+
+.div_tit { padding:10px 25px;clear: both}
+.div_tit>p {padding: 10px 10px;}
+.div_tit .div_txt {font-size: 1em;padding:10px 0}
+.div_tit .div_txt>p{padding: 10px 10px;font-size: 12px}
+
+.div_tit .ul_list li {line-height: 2em;padding-left: 10px}
+.div_tit .ul_list li span{padding-left: 20px}
+.div_tit .ul_list li:first-child{background:#dee3e9;font-weight: bold }
+.div_tit .text .ul_list li:first-child{background:#fff;font-weight: normal }
+.div_tit .text .ul_list li{clear:both }
+
+.div_select { padding-right:1em; background:url(../img/icon22.png) no-repeat 95% center; overflow:hidden; border:1px solid #e5e5e5;}
+.div_select select{  appearance:none; -moz-appearance:none; -webkit-appearance:none; width:100%; line-height:2em; border:0; background:none; text-indent:1em;}
+
+
+.div_textarea{ padding:0.2em; border:1px solid #c9c9c9}
+.div_textarea textarea{ width:100%; border:0; height:5em;resize:none;}
+
+.div_txt .div_btn a{display:block; float:left; width:10%; margin:0 1%;  line-height:2.5em; FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#fb6e65,endColorStr=#ff8331); /*IE 6 7 8*/ background: -ms-linear-gradient(top, #fb6e65, #ff8331); /* IE 10 */ background: -moz-linear-gradient(top,#fb6e65,#ff8331); /*火狐*/ background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#fb6e65), to(#ff8331)); /*谷歌*/ background: -webkit-linear-gradient(top, #fb6e65, #ff8331); /*Safari5.1 Chrome 10+*/ background: -o-linear-gradient(top, #fb6e65, #ff8331); /*Opera 11.10+*/color:#fff; border-radius:2em; text-align:center; font-size:1.2em;}
+
+.div_txt .div_nav a{ display:block; float:left; width:28%; margin:0 1%;  line-height:1.5em; FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#1c3763,endColorStr=#1278b9); /*IE 6 7 8*/ background: -ms-linear-gradient(top, #1c3763, #1278b9); /* IE 10 */ background: -moz-linear-gradient(top,#1c3763,#1278b9); /*火狐*/ background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#1c3763), to(#1278b9)); /*谷歌*/ background: -webkit-linear-gradient(top, #1c3763, #1278b9); /*Safari5.1 Chrome 10+*/ background: -o-linear-gradient(top, #1c3763, #1278b9); /*Opera 11.10+*/color:#fff; border-radius:2em; text-align:center; font-size:1.2em;}
+
+
+.p_btn a {display:block; width:28%; margin:5px 1%;  line-height:1.5em;}
+.main2{margin-left:30px}
+.main2 .div_txt .div_input{width:60%; float:left; line-height:3em;}
+.div_input{ border-bottom:1px solid #eee;background:#fff;}
+.div_input input{ border:0; width:100%; background:none;}
+
+/*----------footer----------*/
+.footer { }
+
+
+
+
+
+
+
+/*----------custom----------*/
+
+.page_tb { position:absolute; top:170px; left:30px; }

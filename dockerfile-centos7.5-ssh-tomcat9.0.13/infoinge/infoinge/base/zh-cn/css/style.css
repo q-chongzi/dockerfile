@@ -1,0 +1,1544 @@
+
+body {
+    font-family:微软雅黑, "Open Sans", sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    background: #f2f2f2;
+    width: 100%;
+    height: 100%;;
+}
+
+input,
+select,
+textarea {
+    font-family: 微软雅黑, "Open Sans", sans-serif;
+    font-size: 1em;
+}
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+img, a {
+    border: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flt {
+    float: left;
+}
+
+.frt {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/*.activation_button{width: 70px;height: 25px;line-height: 50px;text-align: center;border-radius:15px;background-color: #fb8173;color: #ffffff }*/
+/*.activation_button a{color: #fefdff;display: block;margin-top: -12px}*/
+.activation_button {
+    border: 2px solid #fb8173;
+    width: 70px;
+    height: 23px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 15px;
+    color: #fb8173;
+    cursor: pointer
+}
+
+.activation_button a {
+    color: #fb8173;
+    display: block;
+    margin-top: -12px;
+    font-weight: bold
+}
+
+/*不同设备字体em基准*/
+@media screen and (max-width: 1000px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/*不同设备字体em基准*/
+
+/*----------header----------*/
+.header {
+    background: #fff;
+}
+
+.header img {
+    vertical-align: middle;
+}
+
+.header .h_nav img {
+    width: 2em;
+}
+
+.header .wrap {
+    width: 95%;
+}
+
+.h_nav li {
+    float: left;
+    margin-left: 3em
+}
+
+.mainer {
+    overflow: hidden;
+}
+
+.mainer .wrap {
+    margin: 0 -0.25%;
+    width: auto;
+}
+
+.left_side1 {
+    width: 14.5%;
+    background: #252a36;
+}
+
+.main1 {
+    width: 64%;
+}
+
+.right_side1 {
+    width: 20%;
+}
+
+.left_side2 {
+    width: 14.5%;
+    background: #252a36;
+}
+
+.main2 {
+    width: 64%;
+}
+
+.right_side2 {
+    width: 20%;
+}
+
+.row {
+    margin: 0 0.25%;
+}
+
+.ht4 {
+    width: 100%;
+}
+
+.row .item {
+    background: #fff;
+    overflow-y: auto;
+}
+
+.row.ht2 .item {
+    margin-top: 10px;
+}
+
+.left_side1 .item, .left_side2 .item {
+    background: #252a36
+}
+
+.title {
+    padding: 5px;
+    color: #fff;
+}
+
+.title span {
+    display: inline-block;
+    line-height: 2em;
+    padding-left: 2em;
+    background: url(../img/icon6.png) no-repeat left center;
+    background-size: auto 1.5em;
+}
+
+.title .span2 {
+    background: url(../img/icon23.png) no-repeat left center;
+    background-size: auto 1.5em;
+}
+
+.title .span3 {
+    background: url(../img/icon25.png) no-repeat left center;
+    background-size: auto 1.2em;
+    padding-left: 3em;
+}
+
+.title .span4 {
+    background: url(../img/icon26.png) no-repeat left center;
+    background-size: auto 1.2em;
+    padding-left: 3em;
+}
+
+.title .span5 {
+    background: url(../img/icon14.png) no-repeat left center;
+    background-size: auto 2em;
+    padding-left: 3em;
+}
+
+.title .span6 {
+    background: url(../img/icon15.png) no-repeat left center;
+    background-size: auto 2em;
+    padding-left: 3em;
+}
+
+.title .span7 {
+    background: url(../img/icon16.png) no-repeat left center;
+    background-size: auto 2em;
+    padding-left: 3em;
+}
+
+.title .span8 {
+    background: url(../img/icon17.png) no-repeat left center;
+    background-size: auto 2em;
+    padding-left: 3em;
+}
+
+.title .span9 {
+    background: url(../img/icon18.png) no-repeat left center;
+    background-size: auto 2em;
+    padding-left: 3em;
+}
+
+.nav_list li {
+    text-align: center;
+    line-height: 2em;
+    margin-bottom: 1.5em;
+    width: 50%;
+    float: left;
+}
+
+.nav_list li a {
+    color: #fff;
+}
+
+.nav_list .img {
+    width: 3em;
+    height: 3em;
+    margin: 0 auto;
+}
+
+.nav_list .img.img1 {
+    background: url(../img/icon7.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list .img.img2 {
+    background: url(../img/icon8.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list .img.img3 {
+    background: url(../img/icon9.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list .img.img4 {
+    background: url(../img/icon10.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list .img.img5 {
+    background: url(../img/icon11.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list .img.img6 {
+    background: url(../img/icon12.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list .img.img7 {
+    background: url(../img/icon13.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list li a:hover .img.img1 {
+    background: url(../img/icon7-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list li a:hover .img.img2 {
+    background: url(../img/icon8-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list li a:hover .img.img3 {
+    background: url(../img/icon9-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list li a:hover .img.img4 {
+    background: url(../img/icon10-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list li a:hover .img.img5 {
+    background: url(../img/icon11-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list li a:hover .img.img6 {
+    background: url(../img/icon12-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list li a:hover .img.img7 {
+    background: url(../img/icon13-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list .img.img11 {
+    background: url(../img/icon7-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list .img.img21 {
+    background: url(../img/icon8-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list .img.img31 {
+    background: url(../img/icon9-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list .img.img41 {
+    background: url(../img/icon10-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list .img.img51 {
+    background: url(../img/icon11-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list .img.img61 {
+    background: url(../img/icon12-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.nav_list .img.img71 {
+    background: url(../img/icon13-1.png) no-repeat center center;
+    background-size: auto 2em
+}
+
+.main_tit {
+    padding: 3px 0;
+    border-bottom: 2px solid #f2f2f2;
+    padding-left: 5px;
+}
+
+.tit_list li {
+    float: left;
+    margin-left: 1em;
+}
+
+.tit_list li a {
+    display: block;
+    width: 2.5em;
+    height: 2.5em;
+    cursor: pointer;
+}
+
+.tit_list li a.a1 {
+    background: url(../img/icon14.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a11 {
+    background: url(../img/icon14-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a2 {
+    background: url(../img/icon15.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a21 {
+    background: url(../img/icon15-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a3 {
+    background: url(../img/icon16.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a31 {
+    background: url(../img/icon16-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a4 {
+    background: url(../img/icon17.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a41 {
+    background: url(../img/icon17-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a5 {
+    background: url(../img/icon18.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a51 {
+    background: url(../img/icon18-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a6 {
+    background: url(../img/icon19.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a61 {
+    background: url(../img/icon19-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a7 {
+    background: url(../img/icon18.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a71 {
+    background: url(../img/icon18-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a1:hover, .tit_list li.in a.a1 {
+    background: url(../img/icon14-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a2:hover, .tit_list li.in a.a2 {
+    background: url(../img/icon15-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a3:hover, .tit_list li.in a.a3 {
+    background: url(../img/icon16-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a4:hover, .tit_list li.in a.a4 {
+    background: url(../img/icon17-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a5:hover, .tit_list li.in a.a5 {
+    background: url(../img/icon18-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a6:hover, .tit_list li.in a.a6 {
+    background: url(../img/icon19-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tit_list li a.a7:hover, .tit_list li.in a.a7 {
+    background: url(../img/icon18-1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.record_time_slider {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.input_radio {
+    vertical-align: middle;
+    margin-left: 1em;
+}
+
+.tit_list2 li {
+    float: left;
+    line-height: 2.5em;
+}
+
+.tit_list2 li a {
+    display: inline-block;
+    border: 1px solid #c9c9c9;
+    padding: 0 1em;
+    margin: 0 0.5em;
+    border-radius: 2em;
+    color: #5c5c5c;
+}
+
+.tit_list2 li a span {
+    display: inline-block;
+    padding-right: 1em;
+    position: relative;
+}
+
+.tit_list2 li a span i {
+    display: block;
+    position: absolute;
+    width: 1em;
+    height: 2.5em;
+    top: 0;
+    right: -0.2em;
+    background: url(../img/close.png) no-repeat center center;
+    background-size: auto 1em;
+}
+
+.tit_list2 li a:hover {
+    FILTER: progid: DXImageTransform . Microsoft . Gradient(gradientType = 0, startColorStr = #fb6e65, endColorStr = #ff8331); /*IE 6 7 8*/
+    background: -ms-linear-gradient(top, #fb6e65, #ff8331); /* IE 10 */
+    background: -moz-linear-gradient(top, #fb6e65, #ff8331); /*火狐*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fb6e65), to(#ff8331)); /*谷歌*/
+    background: -webkit-linear-gradient(top, #fb6e65, #ff8331); /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #fb6e65, #ff8331); /*Opera 11.10+*/
+    color: #fff;
+    border-color: transparent;
+    background-size: auto 1em;
+}
+
+.tit_list2 li a:hover span i {
+    background: url(../img/close1.png) no-repeat center center
+}
+
+.main_tab table {
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    color: #666;
+    table-layout: fixed;
+}
+
+.main_tab table th {
+    background: #dadee8;
+    color: #666;
+    font-weight: normal;
+}
+
+.main_tab table th, .main_tab table td {
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.main_tab table tr:nth-child(odd) td {
+    background: #f5f9ff
+}
+
+.thth {
+    border-right: 1px solid #FFFFFF;
+    white-space: nowrap;
+    background: #dadee8;
+    color: #666;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 33px;
+    line-height: 33px;
+}
+
+.trtr:nth-child(odd) td {
+    background: #eff3f8
+}
+
+.div_btn img {
+    vertical-align: middle;
+    width: 1.4em;
+    margin: 0 1em;
+}
+
+.div_nav img {
+    vertical-align: middle;
+    width: 1.4em;
+    margin: 0 1em;
+}
+
+.main_tab table th.th1 {
+    width: 4em;
+}
+
+.main_tab table th.th7 {
+    width: 20%;
+}
+
+.main_tab table td {
+    height: 2em;
+}
+
+.span_check {
+    width: 1em;
+    height: 1em;
+    border-radius: 3px;
+    border: 1px solid #c9c9c9;
+    display: block;
+    margin: 0 auto;
+}
+
+tr.on .span_check {
+    background: url(../img/icon38-1.png) no-repeat left center;
+    border: 0;
+}
+
+.right_side1 .title span {
+    background: url(../img/icon20.png) no-repeat left center;
+    background-size: auto 1.5em;
+    color: #666;
+}
+
+.right_side1 .title a {
+    cursor: pointer;
+}
+
+/*----------mainer----------*/
+.mainer {
+}
+
+.right_side1 .title span.span_edit {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    vertical-align: top;
+    margin-left: 2em;
+    line-height: 2em;
+    background: url(../img/icon21.png) no-repeat center center;
+    background-size: auto 1.5em;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.right_side1 .title span.span_edit:hover {
+    background: url(../img/icon21_1.png) no-repeat center center;
+    background-size: auto 1.5em;
+}
+
+.right_side1 .title span.span_reload {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    vertical-align: top;
+    margin-left: 2em;
+    line-height: 2em;
+    background: url(../img/icon27.png) no-repeat center center;
+    background-size: auto 1.5em;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.right_side1 .title span.span_reload:hover {
+    background: url(../img/icon30.png) no-repeat center center;
+    background-size: auto 1.5em;
+}
+
+.span_dele {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin-top: 0.4em;
+    vertical-align: top;
+    margin-left: 60em;
+    line-height: 2em;
+    background: url(../img/icon210.png) no-repeat center center;
+    background-size: auto 1.5em;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.right_side1 .title span.span_dele:hover {
+    background: url(../img/icon210_1.png) no-repeat center center;
+    background-size: auto 1.5em;
+}
+
+.div_txt {
+    padding: 0 1.3em;
+    font-size: 0.8em;
+}
+
+.div_txt .list {
+    line-height: 2em;
+    padding: 0.5em 0;
+}
+
+.div_txt .list .text {
+    color: #666;
+    overflow: hidden;
+}
+
+.div_txt .span_tit {
+    display: block;
+    float: left;
+    width: 5.5em;
+    height: 1em;
+    color: #aaa;
+}
+
+.div_txt .position_spinner {
+    position: relative;
+}
+
+.div_txt input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+.div_txt .order {
+    display: inline-block;
+    width: 84%;
+    border: 1px solid #e5e5e5;
+    line-height: 2em;
+    text-indent: 1em;
+}
+
+.div_txt .icon-input {
+    display: inline-block;
+    width: 20px;
+    height: 11px;
+    position: absolute;
+    right: 16px;
+}
+
+.div_txt .icon-up {
+    top: 0;
+    background: url("images/up.png") no-repeat 0 -1px;
+}
+
+.div_txt .icon-down {
+    bottom: 0;
+    background: url("images/down.png") no-repeat 0 -8px;
+}
+
+.div_input {
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+
+.div_input input {
+    border: 0;
+    width: 100%;
+    background: none;
+}
+
+.div_input2 {
+    border-bottom: 1px solid #eee;
+    width: 20%;
+    background: #fff;
+}
+
+.div_input2 input {
+    border: 0;
+    width: 100%;
+    background: none;
+}
+
+.div_select {
+    padding-right: 1em;
+    background: url(../img/icon22.png) no-repeat 95% center;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+
+.div_select select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    line-height: 2em;
+    border: 0;
+    background: none;
+    text-indent: 1em;
+}
+
+.div_txt1 {
+    padding: 0 1.3em;
+    font-size: 0.8em;
+}
+
+.div_txt1 .list1 {
+    line-height: 1.8em;
+    padding: 0.5em 0;
+}
+
+.div_txt1 .list1 .text {
+    color: #666;
+    display: inline-block;
+}
+
+.div_txt1 .span_tit {
+    display: inline-block;
+    width: 5.5em;
+    height: 1em;
+    color: #aaa;
+}
+
+.div_txt1 .div_input1 {
+    background: #fff;
+}
+
+.span_checkbox {
+    width: 1em;
+    border-radius: 2px;
+    float: left;
+    margin-top: 0.5em;
+    line-height: 1em;
+    display: inline-block;
+    height: 1em;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.radioclass {
+    opacity: 0;
+    cursor: pointer;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+}
+
+.div_check.on .span_checkbox {
+    background-color: #ff8331
+}
+
+.div_textarea {
+    padding: 0.2em;
+    border: 1px solid #c9c9c9
+}
+
+.div_textarea textarea {
+    width: 100%;
+    border: 0;
+    height: 5em;
+    resize: none;
+}
+
+.div_txt .div_btn a {
+    display: block;
+    float: left;
+    width: 28%;
+    margin: 0 1%;
+    line-height: 2.5em;
+    FILTER: progid: DXImageTransform . Microsoft . Gradient(gradientType = 0, startColorStr = #fb6e65, endColorStr = #ff8331); /*IE 6 7 8*/
+    background: -ms-linear-gradient(top, #fb6e65, #ff8331); /* IE 10 */
+    background: -moz-linear-gradient(top, #fb6e65, #ff8331); /*火狐*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fb6e65), to(#ff8331)); /*谷歌*/
+    background: -webkit-linear-gradient(top, #fb6e65, #ff8331); /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #fb6e65, #ff8331); /*Opera 11.10+*/
+    color: #fff;
+    border-radius: 2em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.div_txt .div_nav a {
+    display: block;
+    float: left;
+    width: 28%;
+    margin: 0 1%;
+    line-height: 1.5em;
+    FILTER: progid: DXImageTransform . Microsoft . Gradient(gradientType = 0, startColorStr = #1c3763, endColorStr = #1278b9); /*IE 6 7 8*/
+    background: -ms-linear-gradient(top, #1c3763, #1278b9); /* IE 10 */
+    background: -moz-linear-gradient(top, #1c3763, #1278b9); /*火狐*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1c3763), to(#1278b9)); /*谷歌*/
+    background: -webkit-linear-gradient(top, #1c3763, #1278b9); /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #1c3763, #1278b9); /*Opera 11.10+*/
+    color: #fff;
+    border-radius: 2em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.div_cur {
+    float: right;
+    width: 61px;
+    background: url(../img/bg1.png) repeat-y center center;
+    height: 25px;
+    border: 1px solid #ff8331;
+    line-height: 25px;
+    margin-top: 5px;
+}
+
+.div_cur a {
+    display: block;
+    width: 50%;
+    float: left;
+    height: 25px;
+}
+
+.div_cur a.a1 {
+    background: url(../img/a1.png) no-repeat center center;
+}
+
+.div_cur a.a2 {
+    background: url(../img/a2.png) no-repeat center center;
+}
+
+.div_cur a.a1:hover {
+    background: url(../img/a1-1.png) no-repeat center center;
+}
+
+.div_cur a.a2:hover {
+    background: url(../img/a2-1.png) no-repeat center center;
+}
+
+.div_list {
+    padding: 0 1em;
+}
+
+.div_list a {
+    color: #fff;
+}
+
+.div_list li {
+    line-height: 2em;
+    font-size: 0.9em
+}
+
+.div_list li a {
+    padding-left: 1em;
+    display: block;
+    background: url(../img/icon24.png) no-repeat left center;
+}
+
+.div_list li a:hover {
+    background: url(../img/icon24-1.png) no-repeat left center;
+}
+
+.left_txt li a {
+    margin: 5px;
+}
+
+.left_txt li a:hover {
+    color: #ffd132;
+}
+
+.right_side2 .title {
+    color: #666;
+}
+
+.right_side2 .div_list a {
+    color: #666;
+}
+
+.main2 .div_txt {
+    padding-top: 0.5em;
+}
+
+.main2 .div_txt .list {
+    margin-bottom: 0em;
+}
+
+.main2 .div_txt .item1 {
+    float: left;
+    margin-right: 2em
+}
+
+.main2 .div_select {
+    width: 190px;
+    float: left;
+}
+
+.main2 .div_txt .span_tit {
+    width: auto;
+}
+
+.p_tips {
+    color: #ff633b;
+}
+
+.main2 .div_txt .div_input {
+    width: 90%;
+    float: left;
+    line-height: 3em;
+}
+
+.main2 .div_txt .div_btn {
+    width: 10%;
+    float: left;
+}
+
+.main2 .div_txt .div_btn a {
+    width: 98%;
+}
+
+.main2 .div_txt .div_nav {
+    width: 10%;
+    float: left;
+}
+
+.main2 .div_txt .div_nav a {
+    width: 98%;
+}
+
+.left_side1 .div_select {
+    background-color: #fff;
+}
+
+.div_tips {
+    color: #fff;
+    line-height: 2.5em;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.right_side1 .div_tips {
+    color: #aaa;
+    padding-top: 0;
+}
+
+.main_content {
+    position: relative;
+}
+
+.cur {
+    top: 5%;
+    left: 2%;
+    position: absolute;
+}
+
+.cur .circle {
+    position: relative;
+    z-index: 10;
+    display: block;
+    width: 49px;
+    height: 56px;
+    background: url(../img/icon27.png) no-repeat center center;
+}
+
+.cur_text {
+    width: 276px;
+    height: 98px;
+    background: url(../img/bg2.png) no-repeat center center;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.cur_text .text {
+    padding-left: 87px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    margin-top: 3px;
+}
+
+.div_nav .tit {
+    line-height: 2em;
+    padding: 0.5em 1em;
+    padding-right: 0;
+    background: #393e4a;
+    color: #fff;
+}
+
+.div_nav {
+    margin-top: 1em;
+}
+
+.div_nav .tit span {
+    display: block;
+    padding-left: 1.5em;
+    border-left: 2px solid #ff8331
+}
+
+.div_nav ul li ul {
+    display: none;
+}
+
+.div_nav ul li {
+    line-height: 3em;
+}
+
+.div_nav ul li span {
+    display: inline-block;
+    padding-left: 1.5em;
+}
+
+.div_nav ul li a {
+    padding-left: 1em;
+    display: block;
+    color: #fff;
+    background: #252a36;
+}
+
+#organization_style_list > ul > li > ul {
+    display: block;
+}
+
+.div_nav ul li ul li a {
+    padding-left: 2em;
+    background: #1b1f28
+}
+
+.div_nav ul li ul li ul li a {
+    padding-left: 3em;
+    background: #13171e;
+}
+
+.div_nav ul li ul li ul li ul li a {
+    padding-left: 4em;
+    background: #000;
+}
+
+.div_nav ul li ul li ul li ul li ul li a {
+    padding-left: 5em;
+    background: #000;
+}
+
+.div_nav ul li ul li ul li ul li ul li ul li a {
+    padding-left: 6em;
+    background: #000;
+}
+
+.div_nav ul li ul li ul li ul li ul li ul li ul li a {
+    padding-left: 7em;
+    background: #000;
+}
+
+.div_nav ul li span {
+    background: url(../img/icon33.png) no-repeat left center;
+    background-size: auto 1em;
+}
+
+.div_nav ul li ul li span {
+    background: url(../img/icon34.png) no-repeat left center;
+    background-size: auto 1em;
+}
+
+.div_nav ul li ul li a:hover {
+    color: #fb6e65
+}
+
+.div_nav ul li ul li a:hover span {
+    background: url(../img/icon34-1.png) no-repeat left center;
+    background-size: auto 1em;
+}
+
+.div_nav ul li ul li ul li ul li span {
+    background: url(../img/icon35.png) no-repeat left center;
+    background-size: auto 1em;
+}
+
+.login_text {
+    width: 35%;
+    float: left;
+    display: table;
+}
+
+.login_text .wrap {
+    display: table-cell;
+    border-right: 1px solid #ddd;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.login_main {
+    width: 65%;
+    float: left;
+    overflow: hidden;
+}
+
+.logo_text {
+    text-align: center;
+    line-height: 3em;
+    color: #aaa;
+    font-size: 1.2em;
+}
+
+.div_txt2 {
+    max-width: 340px;
+    margin: 0 auto;
+    margin-top: 4em;
+}
+
+.div_txt2 .div_input {
+    background: none;
+    line-height: 4em;
+    padding-left: 2em;
+}
+
+.div_txt2 .div_input.input_user {
+    background: url(../img/icon36.png) no-repeat left center;
+    background-size: auto 1.5em;
+}
+
+.div_txt2 .div_input.input_pwd {
+    background: url(../img/icon37.png) no-repeat left center;
+    background-size: auto 1.5em;
+}
+
+.div_btn1 a {
+    display: block;
+    line-height: 3em;
+    background: #ff633b;
+    color: #fff;
+    border-radius: 2em;
+}
+
+.div_btn1 {
+    margin-top: 2em;
+}
+
+.div_txt2 .div_check {
+    cursor: pointer;
+    float: left;
+    padding-left: 1.5em;
+    background: url(../img/icon38.png) no-repeat left center;
+    line-height: 3em;
+    color: #aaa;
+}
+
+.div_txt2 .div_check.on {
+    background: url(../img/icon38-1.png) no-repeat left center;
+}
+
+.div_forget {
+    line-height: 3em;
+    text-align: right;
+    color: #aaa;
+}
+
+.div_forget a {
+    padding: 0 1em;
+    font-size: 1.1em;
+    color: #ff8331;
+}
+
+.list_tips {
+    text-align: center;
+    line-height: 3em;
+    padding-top: 1em;
+}
+
+.list_tips span {
+    display: inline-block;
+    padding-left: 3em;
+    font-size: 1.2em;
+    color: #ff633b;
+}
+
+.list_tips span.span1 {
+    background: url(../img/icon39.png) no-repeat left center;
+}
+
+.list_tips span.span2 {
+    background: url(../img/icon40.png) no-repeat left center;
+}
+
+.login .main_tit {
+    border-bottom: 0;
+    text-align: center;
+    padding: 4em 0;
+    color: #adadad;
+    line-height: 2em;
+}
+
+.login .main_tit h3 {
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+.login .main_content {
+    margin: 0 20px;
+}
+
+.main_content img {
+    max-width: 100%;
+}
+
+.div_nav a:hover {
+    color: #ff633b
+}
+
+/*--password_warning--*/
+.password_warning {
+    background-color: #dadee8;
+    display: block;
+    line-height: 2em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.password_modification {
+    width: 300px;
+    position: fixed;
+    left: 1200px;
+    top: 49px;
+    z-index: 9999;
+    border: 2px solid #ff633b;
+    background-color: #ffffff;
+    font-size: 1.0em;
+    display: none;
+    border-radius: 2em;
+    border-top-right-radius: 0;
+    overflow: hidden
+}
+
+.password_modification > p {
+    position: absolute;
+    top: 0%;
+    right: 1%;
+    font-size: 1.5em;
+    color: #e4b9b9;
+    cursor: pointer
+}
+
+.password_modification .div_btn a {
+    display: block;
+    float: left;
+    width: 38%;
+    margin: 0 1%;
+    line-height: 2.5em;
+    FILTER: progid: DXImageTransform . Microsoft . Gradient(gradientType = 0, startColorStr = #fb6e65, endColorStr = #ff8331); /*IE 6 7 8*/
+    background: -ms-linear-gradient(top, #fb6e65, #ff8331); /* IE 10 */
+    background: -moz-linear-gradient(top, #fb6e65, #ff8331); /*火狐*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fb6e65), to(#ff8331)); /*谷歌*/
+    background: -webkit-linear-gradient(top, #fb6e65, #ff8331); /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #fb6e65, #ff8331); /*Opera 11.10+*/
+    color: #fff;
+    border-radius: 2em;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.password_modification .list {
+    line-height: 2em;
+    padding: 0.5em 0;
+}
+
+.password_modification .list .text {
+    color: #666;
+    overflow: hidden;
+}
+
+.password_modification .span_tit {
+    display: block;
+    float: left;
+    width: 6em;
+    height: 1em;
+    color: #aaa;
+    text-align: right
+}
+
+.password_modification .div_input {
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+
+.password_modification .div_input input {
+    border: 0;
+    width: 80%;
+    width: 13em;
+    background: none;
+}
+
+.password_modification > p:hover {
+    color: #ff633b
+}
+
+.password_modification .div_input :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #aaa;
+}
+
+.password_modification .div_input :-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #aaa;
+}
+
+.password_modification .div_input input:-ms-input-placeholder {
+    color: #aaa;
+}
+
+.password_modification .div_input input::-webkit-input-placeholder {
+    color: #aaa;
+}
+
+/*----------footer----------*/
+.footer {
+}
+
+/*----------custom----------*/
+
+.page_tb {
+    position: absolute;
+    top: 170px;
+    left: 30px;
+}
+
+.data_exception_count_style {
+    position: absolute;
+    top: 8px;
+    left: 85px;
+    background-color: red;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 20px
+}
+
+/*----------首页激活购买自定义css-----------*/
+#logon_button_prohibit {
+    background-color: #B2B2B2;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    cursor: help;
+}
+.hidden{
+    display: none;
+}
+#system_error_hints {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    width: 750px;
+    height: 380px;
+    background-color: #E5E5E5;
+    /*border: 10px solid #FF5022;*/
+    z-index: 999;
+    border-radius: 50px;
+}
+
+#diginter_activation {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 750px;
+    height: 390px;
+    background-color: #F5F5F5;
+    border: 7px/* solid rgba(128, 135, 129, 0.53)*/;
+    z-index: 999;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #888888;
+}
+
+#diginter_activation input {
+    width: 260px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 30px;
+    border: 1px solid #D3D3D3;
+    /*margin-top: 10px*/
+}
+
+#activation_email_validate {
+    margin-top: 30px
+}
+
+.retrieve-con-tit {
+    top: 10px;
+    width: 95%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold
+}
+
+#manage_email_return {
+    text-align: center;
+    margin-top: 2px
+}
+
+#activation_email {
+    font-size: 16px;
+    letter-spacing: 20px;
+    FILTER: progid: DXImageTransform . Microsoft . Gradient(gradientType = 0, startColorStr = #fb6e65, endColorStr = #ff8331); /*IE 6 7 8*/
+    background: -ms-linear-gradient(top, #fb6e65, #ff8331); /* IE 10 */
+    background: -moz-linear-gradient(top, #fb6e65, #ff8331); /*火狐*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fb6e65), to(#ff8331)); /*谷歌*/
+    background: -webkit-linear-gradient(top, #fb6e65, #ff8331); /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #fb6e65, #ff8331); /*Opera 11.10+*/
+    color: #fff;
+}
+
+/*版本信息模块*/
+.version_information {
+    position: fixed;
+    top: 5px;
+    width: 332px;
+    height: 79px;
+    overflow: hidden;
+    display: none
+}
+
+.box_information {
+    width: 330px;
+    height: 63px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid #ff8232fa;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+    background: #ffc13214;
+}
+
+.on_left_version {
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    background-color: #ff8232fa;
+    right: 0;
+    cursor: pointer;
+}
+
+.on_left_version img {
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    width: 20px;
+    transform: translateY(-50%)
+}
+
+.information_text {
+    position: absolute;
+    left: 10px;
+    font-size: 12px;
+    text-align: left
+}
+
+.information_clearance {
+    margin-top: 6px
+}

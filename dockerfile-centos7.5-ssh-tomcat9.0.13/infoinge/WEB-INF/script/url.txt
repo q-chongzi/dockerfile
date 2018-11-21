@@ -1,0 +1,13 @@
+
+
+
+S00001S00000000101_true__0_0_0_0_admin_admin_0__cludove.crest.spruce_spruce_DB_com.mysql.jdbc.Driver_192.168.0.105_3306_hinge_hinge_infoinge_123456_200_20000_jdbc:mysql://HOST:PORT/INSTANCE_false
+
+S00001S00000000101_true__0_0_0_0_admin_admin_0__cludove.crest.spruce_spruce_DB_oracle.jdbc.driver.OracleDriver_192.168.0.105_1521_orcl_C\#\#HINGE_c\#\#hinge_123456_200_20000_jdbc\:oracle\:thin\:@HOST\:PORT\:INSTANCE_false
+
+
+jdbc:oracle:thin:@HOST:PORT:INSTANCE
+
+jdbc:jtds:sqlserver://HOST:PORT/INSTANCE
+
+jdbc:mysql://HOST:PORT/INSTANCE
