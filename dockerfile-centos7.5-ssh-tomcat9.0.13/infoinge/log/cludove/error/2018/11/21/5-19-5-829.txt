@@ -83,3 +83,6 @@ ConnectionPool's reapConnections[jdbc:mysql://192.168.150.100:3306/infoinge_test
 2018-11-21 05:19:41
 ConnectionPool's reapConnections[jdbc:oracle:thin:@192.168.150.100:1521:orcl]: 134
 
+2018-11-21 05:19:59
+ConnectionPool's reapConnections[jdbc:mysql://192.168.150.100:3306/infoinge_test1]: 0
+

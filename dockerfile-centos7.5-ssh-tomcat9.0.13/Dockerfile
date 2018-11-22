@@ -17,6 +17,7 @@ RUN mkdir -p /etc/supervicor && mkdir -p /opt/apache-tomcat-9.0.13/conf/auth
 COPY supervisord.conf /etc/supervisor/
 COPY tomcat.keystore /opt/apache-tomcat-9.0.13/conf/auth/
 COPY server.xml /opt/apache-tomcat-9.0.13/conf/
+COPY infoinge /opt/apache-tomcat-9.0.13/webapps/infoinge
 ENV JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=GBK"
 EXPOSE 22 8080 9001 8090
 ENTRYPOINT supervisord -c /etc/supervisor/supervisord.conf 
